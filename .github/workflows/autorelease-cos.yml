@@ -1,5 +1,5 @@
 name: Autorelease Cos
-on: 
+on:
   push:
     branches:
       - master
@@ -31,9 +31,6 @@ jobs:
           REGION: ap-nanjing
         run: |
           coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
-          tccli configure set secretId $SECRET_ID
-          tccli configure set secretKey $SECRET_KEY
-          tccli configure set region $REGION
 
       - name: upload
         run: |
