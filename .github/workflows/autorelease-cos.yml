@@ -1,8 +1,8 @@
 name: Autorelease Cos
 on:
   push:
-    branches:
-      - master
+    tags:
+    - 'v*'
 
 jobs:
   build:
