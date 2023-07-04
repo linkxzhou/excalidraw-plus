@@ -134,5 +134,5 @@
     "prerelease": "node scripts/prerelease.js",
     "release": "node scripts/release.js"
   },
-  "repository": "git@github.com:korbinzhao/handraw.git"
+  "repository": "git@github.com:linkxzhou/excalidraw-plus.git"
 }
