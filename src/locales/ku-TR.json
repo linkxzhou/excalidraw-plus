@@ -126,7 +126,8 @@
       "unlockAll": "کردنەوەی قفلی هەمووی"
     },
     "statusPublished": "بڵاوکراوەتەوە",
-    "sidebarLock": "هێشتنەوەی شریتی لا بە کراوەیی"
+    "sidebarLock": "هێشتنەوەی شریتی لا بە کراوەیی",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "هێشتا هیچ بڕگەیەک زیاد نەکراوە...",
@@ -170,7 +171,9 @@
     "remove": "لابردن",
     "publishLibrary": "بڵاوکردنەوە",
     "submit": "پێشکەشکردن",
-    "confirm": "دوپاتکردنەوە"
+    "confirm": "دوپاتکردنەوە",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "ئەمە هەموو تابلۆکە خاوێن دەکاتەوە، دڵنیایت؟",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "ناتوانرێ پێشبینین پیشان بدرێت",
     "canvasTooBig": "تابلۆکە لەوانەیە زۆر گەورەبێت.",
-    "canvasTooBigTip": "زانیاری: هەوڵ بدە دوورترین توخمەکان کەمێک لە یەکتر نزیک بکەوە."
+    "canvasTooBigTip": "زانیاری: هەوڵ بدە دوورترین توخمەکان کەمێک لە یەکتر نزیک بکەوە.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "تووشی هەڵەیەک بوو. هەوڵ بدە ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "خۆڵەمێشی 7",
     "ffffff": "سپی",
     "f8f9fa": "خۆڵەمێشی 0",
     "f1f3f5": "خۆڵەمێشی 1",
@@ -432,7 +438,6 @@
     "fd7e14": "پرتەقاڵی 6",
     "000000": "ڕەش",
     "343a40": "خۆڵەمێشی 8",
-    "495057": "خۆڵەمێشی 7",
     "c92a2a": "سور 9",
     "a61e4d": "پەمەی 9",
     "862e9c": "مێوژی 9",

@@ -762,7 +762,6 @@ class App extends React.Component<AppProps, AppState> {
   );
 
   // Lifecycle
-
   private onBlur = withBatchedUpdates(() => {
     isHoldingSpace = false;
     this.setState({ isBindingEnabled: true });

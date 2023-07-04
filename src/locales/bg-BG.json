@@ -126,7 +126,8 @@
       "unlockAll": ""
     },
     "statusPublished": "",
-    "sidebarLock": ""
+    "sidebarLock": "",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "",
@@ -170,7 +171,9 @@
     "remove": "Премахване",
     "publishLibrary": "Публикувай",
     "submit": "Изпрати",
-    "confirm": "Потвърждаване"
+    "confirm": "Потвърждаване",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Това ще изчисти цялото платно. Сигурни ли сте?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Невъзможност за показване на preview",
     "canvasTooBig": "Платното е твърде голямо.",
-    "canvasTooBigTip": "Подсказка: пробвайте да приближите далечните елементи по-близко."
+    "canvasTooBigTip": "Подсказка: пробвайте да приближите далечните елементи по-близко.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Среща грешка. Опитайте ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "",
     "ffffff": "",
     "f8f9fa": "",
     "f1f3f5": "",
@@ -432,7 +438,6 @@
     "fd7e14": "",
     "000000": "",
     "343a40": "",
-    "495057": "",
     "c92a2a": "",
     "a61e4d": "",
     "862e9c": "",

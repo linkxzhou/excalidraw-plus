@@ -126,7 +126,8 @@
       "unlockAll": "Lås upp alla"
     },
     "statusPublished": "Publicerad",
-    "sidebarLock": "Håll sidofältet öppet"
+    "sidebarLock": "Håll sidofältet öppet",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Inga objekt tillagda ännu...",
@@ -170,7 +171,9 @@
     "remove": "Ta bort",
     "publishLibrary": "Publicera",
     "submit": "Skicka",
-    "confirm": "Bekräfta"
+    "confirm": "Bekräfta",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Detta rensar hela canvasen. Är du säker?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Kan inte visa förhandsgranskning",
     "canvasTooBig": "Canvasen kan vara för stor.",
-    "canvasTooBigTip": "Tips: prova att flytta de mest avlägsna elementen lite närmare varandra."
+    "canvasTooBigTip": "Tips: prova att flytta de mest avlägsna elementen lite närmare varandra.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Ett fel uppstod. Försök ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "Grå 7",
     "ffffff": "Vit",
     "f8f9fa": "Grå 0",
     "f1f3f5": "Grå 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Orange 6",
     "000000": "Svart",
     "343a40": "Grå 8",
-    "495057": "Grå 7",
     "c92a2a": "Röd 9",
     "a61e4d": "Rosa 9",
     "862e9c": "Lila 9",

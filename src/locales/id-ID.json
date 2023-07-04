@@ -126,7 +126,8 @@
       "unlockAll": "Lepas semua"
     },
     "statusPublished": "Telah terbit",
-    "sidebarLock": "Biarkan sidebar tetap terbuka"
+    "sidebarLock": "Biarkan sidebar tetap terbuka",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Belum ada item yang ditambahkan...",
@@ -170,7 +171,9 @@
     "remove": "Hapus",
     "publishLibrary": "Terbitkan",
     "submit": "Kirimkan",
-    "confirm": "Konfirmasi"
+    "confirm": "Konfirmasi",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Ini akan menghapus semua yang ada dikanvas. Apakah kamu yakin ?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Tidak dapat menampilkan pratinjau",
     "canvasTooBig": "Kanvas mungkin terlalu besar.",
-    "canvasTooBigTip": "Tip: coba pindahkan elemen-terjauh lebih dekat bersama."
+    "canvasTooBigTip": "Tip: coba pindahkan elemen-terjauh lebih dekat bersama.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Mengalami sebuah kesalahan. Cobalah ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Gunakan {{shortcut}} untuk menempelkan sebagai satu elemen,\natau tempelkan ke teks editor yang ada"
   },
   "colors": {
+    "495057": "Abu-abu 7",
     "ffffff": "Putih",
     "f8f9fa": "Abu-abu 0",
     "f1f3f5": "Abu-abu 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Jingga 6",
     "000000": "Hitam",
     "343a40": "Abu-abu 8",
-    "495057": "Abu-abu 7",
     "c92a2a": "Merah 9",
     "a61e4d": "Merah muda 9",
     "862e9c": "Ungu 9",

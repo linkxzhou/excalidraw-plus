@@ -119,7 +119,6 @@
       "edit": "Edit line",
       "exit": "Exit line editor"
     },
-
     "elementLock": {
       "lock": "Lock",
       "unlock": "Unlock",
@@ -127,7 +126,8 @@
       "unlockAll": "Unlock all"
     },
     "statusPublished": "Published",
-    "sidebarLock": "Keep sidebar open"
+    "sidebarLock": "Keep sidebar open",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "No items added yet...",
@@ -255,7 +255,9 @@
   "canvasError": {
     "cannotShowPreview": "Cannot show preview",
     "canvasTooBig": "The canvas may be too big.",
-    "canvasTooBigTip": "Tip: try moving the farthest elements a bit closer together."
+    "canvasTooBigTip": "Tip: try moving the farthest elements a bit closer together.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Encountered an error. Try ",
@@ -405,6 +407,7 @@
     "pasteAsSingleElement": "Use {{shortcut}} to paste as a single element,\nor paste into an existing text editor"
   },
   "colors": {
+    "495057": "Gray 7",
     "ffffff": "White",
     "f8f9fa": "Gray 0",
     "f1f3f5": "Gray 1",
@@ -437,7 +440,6 @@
     "fd7e14": "Orange 6",
     "000000": "Black",
     "343a40": "Gray 8",
-    "495057": "Gray 7",
     "c92a2a": "Red 9",
     "a61e4d": "Pink 9",
     "862e9c": "Grape 9",

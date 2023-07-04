@@ -126,7 +126,8 @@
       "unlockAll": "Tot desverrolhar"
     },
     "statusPublished": "Publicat",
-    "sidebarLock": "Gardar la barra laterala dobèrta"
+    "sidebarLock": "Gardar la barra laterala dobèrta",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Cap d’element pas encara apondut...",
@@ -170,7 +171,9 @@
     "remove": "Tirar",
     "publishLibrary": "Publicar",
     "submit": "Enviar",
-    "confirm": "Confirmar"
+    "confirm": "Confirmar",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Aquò suprimirà lo canabàs complèt. O volètz vertadièrament ?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Afichatge impossible de l’apercebut",
     "canvasTooBig": "Lo canabàs pòt èsser tròp grand.",
-    "canvasTooBigTip": "Astúcia : ensajatz de sarrar los elements mai alonhats."
+    "canvasTooBigTip": "Astúcia : ensajatz de sarrar los elements mai alonhats.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Una error s’es producha. Ensajatz ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "Gris 7",
     "ffffff": "Blanc",
     "f8f9fa": "Gris 0",
     "f1f3f5": "Gris 0",
@@ -432,7 +438,6 @@
     "fd7e14": "Irange 6",
     "000000": "Negre",
     "343a40": "Gris 8",
-    "495057": "Gris 7",
     "c92a2a": "Roge 9",
     "a61e4d": "Ròse 9",
     "862e9c": "Bordèu 9",

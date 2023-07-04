@@ -126,7 +126,8 @@
       "unlockAll": "Deblocare toate"
     },
     "statusPublished": "Publicat",
-    "sidebarLock": "Păstrează deschisă bara laterală"
+    "sidebarLock": "Păstrează deschisă bara laterală",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Niciun element adăugat încă...",
@@ -170,7 +171,9 @@
     "remove": "Eliminare",
     "publishLibrary": "Publicare",
     "submit": "Trimitere",
-    "confirm": "Confirmare"
+    "confirm": "Confirmare",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Această opțiune va șterge întreaga pânză. Confirmi?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Nu se poate afișa previzualizarea",
     "canvasTooBig": "Pânza poate fi prea mare.",
-    "canvasTooBigTip": "Sfat: încearcă să apropii puțin mai mult elementele cele mai îndepărtate."
+    "canvasTooBigTip": "Sfat: încearcă să apropii puțin mai mult elementele cele mai îndepărtate.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "A apărut o eroare. Încearcă ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Folosește {{shortcut}} pentru a insera ca un singur element\nsau insera într-un editor de text existent"
   },
   "colors": {
+    "495057": "Gri 7",
     "ffffff": "Alb",
     "f8f9fa": "Gri 0",
     "f1f3f5": "Gri 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Portocaliu 6",
     "000000": "Negru",
     "343a40": "Gri 8",
-    "495057": "Gri 7",
     "c92a2a": "Roșu 9",
     "a61e4d": "Roz 9",
     "862e9c": "Struguriu 9",

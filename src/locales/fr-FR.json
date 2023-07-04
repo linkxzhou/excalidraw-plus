@@ -126,7 +126,8 @@
       "unlockAll": "Tout déverrouiller"
     },
     "statusPublished": "Publié",
-    "sidebarLock": "Maintenir la barre latérale ouverte"
+    "sidebarLock": "Maintenir la barre latérale ouverte",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Aucun élément n'a encore été ajouté ...",
@@ -170,7 +171,9 @@
     "remove": "Supprimer",
     "publishLibrary": "Publier",
     "submit": "Envoyer",
-    "confirm": "Confirmer"
+    "confirm": "Confirmer",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "L'intégralité du canevas va être effacée. Êtes-vous sûr ?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Impossible d’afficher l’aperçu",
     "canvasTooBig": "Le canevas est peut-être trop grand.",
-    "canvasTooBigTip": "Astuce : essayez de rapprocher un peu les éléments les plus éloignés."
+    "canvasTooBigTip": "Astuce : essayez de rapprocher un peu les éléments les plus éloignés.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Une erreur est survenue. Essayez ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Utiliser {{shortcut}} pour coller comme un seul élément,\nou coller dans un éditeur de texte existant"
   },
   "colors": {
+    "495057": "Gris 7",
     "ffffff": "Blanc",
     "f8f9fa": "Gris 0",
     "f1f3f5": "Gris 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Orange 6",
     "000000": "Noir",
     "343a40": "Gris 8",
-    "495057": "Gris 7",
     "c92a2a": "Rouge 9",
     "a61e4d": "Rose 9",
     "862e9c": "Mauve 9",

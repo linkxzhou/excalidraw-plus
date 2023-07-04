@@ -126,7 +126,8 @@
       "unlockAll": "すべてのロックを解除"
     },
     "statusPublished": "公開済み",
-    "sidebarLock": "サイドバーを開いたままにする"
+    "sidebarLock": "サイドバーを開いたままにする",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "まだアイテムが追加されていません…",
@@ -170,7 +171,9 @@
     "remove": "削除",
     "publishLibrary": "公開",
     "submit": "送信",
-    "confirm": "確認"
+    "confirm": "確認",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "この操作によってキャンバス全体が消えます。よろしいですか？",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "プレビューを表示できません",
     "canvasTooBig": "キャンバスが大きすぎます。",
-    "canvasTooBigTip": "ヒント: 最も遠い要素をもう少し近づけてみてください。"
+    "canvasTooBigTip": "ヒント: 最も遠い要素をもう少し近づけてみてください。",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "エラーが発生しました。もう一度やり直してください。 ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "{{shortcut}} を使用して単一の要素として貼り付けるか、\n既存のテキストエディタに貼り付け"
   },
   "colors": {
+    "495057": "グレー 7",
     "ffffff": "ホワイト",
     "f8f9fa": "グレー 0",
     "f1f3f5": "グレー 1",
@@ -432,7 +438,6 @@
     "fd7e14": "オレンジ 6",
     "000000": "ブラック",
     "343a40": "グレー 8",
-    "495057": "グレー 7",
     "c92a2a": "レッド 9",
     "a61e4d": "ピンク 9",
     "862e9c": "グレープ 9",

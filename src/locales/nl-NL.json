@@ -126,7 +126,8 @@
       "unlockAll": "Ontgrendel alles"
     },
     "statusPublished": "Gepubliceerd",
-    "sidebarLock": "Zijbalk open houden"
+    "sidebarLock": "Zijbalk open houden",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Nog geen items toegevoegd...",
@@ -170,7 +171,9 @@
     "remove": "Verwijderen",
     "publishLibrary": "Publiceren",
     "submit": "Versturen",
-    "confirm": "Bevestigen"
+    "confirm": "Bevestigen",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Dit zal het hele canvas verwijderen. Weet je het zeker?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Kan voorbeeld niet tonen",
     "canvasTooBig": "Het canvas is mogelijk te groot.",
-    "canvasTooBigTip": "Tip: beweeg de verste elementen iets dichter bij elkaar."
+    "canvasTooBigTip": "Tip: beweeg de verste elementen iets dichter bij elkaar.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Fout opgetreden. Probeer ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Gebruik {{shortcut}} om te plakken als een enkel element,\nof plak in een bestaande teksteditor"
   },
   "colors": {
+    "495057": "Grijs 7",
     "ffffff": "Wit",
     "f8f9fa": "Grijs 0",
     "f1f3f5": "Grijs 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Oranje 6",
     "000000": "Zwart",
     "343a40": "Grijs 8",
-    "495057": "Grijs 7",
     "c92a2a": "Rood 9",
     "a61e4d": "Roze 9",
     "862e9c": "Druiven 9",

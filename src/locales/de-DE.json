@@ -126,7 +126,8 @@
       "unlockAll": "Alle entsperren"
     },
     "statusPublished": "Veröffentlicht",
-    "sidebarLock": "Seitenleiste offen lassen"
+    "sidebarLock": "Seitenleiste offen lassen",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Noch keine Elemente hinzugefügt...",
@@ -170,7 +171,9 @@
     "remove": "Entfernen",
     "publishLibrary": "Veröffentlichen",
     "submit": "Absenden",
-    "confirm": "Bestätigen"
+    "confirm": "Bestätigen",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Dies wird die ganze Zeichenfläche löschen. Bist du dir sicher?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Vorschau kann nicht angezeigt werden",
     "canvasTooBig": "Die Leinwand ist möglicherweise zu groß.",
-    "canvasTooBigTip": "Tipp: Schiebe die am weitesten entfernten Elemente ein wenig näher zusammen."
+    "canvasTooBigTip": "Tipp: Schiebe die am weitesten entfernten Elemente ein wenig näher zusammen.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Es ist ein Fehler aufgetreten. Versuche ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Verwende {{shortcut}} , um als einzelnes Element\neinzufügen oder in einen existierenden Texteditor einzufügen"
   },
   "colors": {
+    "495057": "Grau 7",
     "ffffff": "Weiß",
     "f8f9fa": "Grau 0",
     "f1f3f5": "Grau 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Orange 6",
     "000000": "Schwarz",
     "343a40": "Grau 8",
-    "495057": "Grau 7",
     "c92a2a": "Rot 9",
     "a61e4d": "Pink 9",
     "862e9c": "Traube 9",

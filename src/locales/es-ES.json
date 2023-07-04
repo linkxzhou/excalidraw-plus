@@ -126,7 +126,8 @@
       "unlockAll": "Desbloquear todo"
     },
     "statusPublished": "Publicado",
-    "sidebarLock": "Mantener barra lateral abierta"
+    "sidebarLock": "Mantener barra lateral abierta",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "No hay elementos añadidos todavía...",
@@ -170,7 +171,9 @@
     "remove": "Eliminar",
     "publishLibrary": "Publicar",
     "submit": "Enviar",
-    "confirm": "Confirmar"
+    "confirm": "Confirmar",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Esto limpiará todo el lienzo. Estás seguro?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "No se puede mostrar la vista previa",
     "canvasTooBig": "El lienzo podría ser demasiado grande.",
-    "canvasTooBigTip": "Sugerencia: intenta acercar un poco más los elementos más lejanos."
+    "canvasTooBigTip": "Sugerencia: intenta acercar un poco más los elementos más lejanos.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Se encontró un error. Intente ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Usa {{shortcut}} para pegar como un solo elemento,\no pegar en un editor de texto existente"
   },
   "colors": {
+    "495057": "Gris 7",
     "ffffff": "Blanco",
     "f8f9fa": "Gris 0",
     "f1f3f5": "Gris 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Naranja 6",
     "000000": "Negro",
     "343a40": "Gris 8",
-    "495057": "Gris 7",
     "c92a2a": "Rojo 9",
     "a61e4d": "Rosa 9",
     "862e9c": "Uva 9",

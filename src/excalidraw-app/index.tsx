@@ -650,23 +650,12 @@ const ExcalidrawWrapper = () => {
         onLibraryChange={onLibraryChange}
         autoFocus={true}
         theme={theme}
-        // renderTopRightUI={(isMobile) => {
-        //   if (isMobile) {
-        //     return null;
-        //   }
-        //   return (
-        //     <LiveCollaborationTrigger
-        //       isCollaborating={isCollaborating}
-        //       onSelect={() => setCollabDialogShown(true)}
-        //     />
-        //   );
-        // }}
       >
         <AppMainMenu
           setCollabDialogShown={setCollabDialogShown}
           isCollaborating={isCollaborating}
         />
-        <AppWelcomeScreen setCollabDialogShown={setCollabDialogShown} />
+        {/* <AppWelcomeScreen setCollabDialogShown={setCollabDialogShown} /> */}
         <AppFooter />
       </Excalidraw>
       {excalidrawAPI && <Collab excalidrawAPI={excalidrawAPI} />}

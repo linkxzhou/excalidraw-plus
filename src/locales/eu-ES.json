@@ -126,7 +126,8 @@
       "unlockAll": "Desblokeatu guztiak"
     },
     "statusPublished": "Argitaratua",
-    "sidebarLock": "Mantendu alboko barra irekita"
+    "sidebarLock": "Mantendu alboko barra irekita",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Oraindik ez da elementurik gehitu...",
@@ -170,7 +171,9 @@
     "remove": "Kendu",
     "publishLibrary": "Argitaratu",
     "submit": "Bidali",
-    "confirm": "Bai"
+    "confirm": "Bai",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Honek oihal osoa garbituko du. Ziur zaude?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Ezin da oihala aurreikusi",
     "canvasTooBig": "Agian oihala handiegia da.",
-    "canvasTooBigTip": "Aholkua: saiatu urrunen dauden elementuak pixka bat hurbiltzen."
+    "canvasTooBigTip": "Aholkua: saiatu urrunen dauden elementuak pixka bat hurbiltzen.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Errore bat aurkitu da. Saiatu ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Erabili {{shortcut}} elementu bakar gisa itsasteko,\nedo itsatsi lehendik dagoen testu-editore batean"
   },
   "colors": {
+    "495057": "Grisa 7",
     "ffffff": "Zuria",
     "f8f9fa": "Grisa 0",
     "f1f3f5": "Grisa 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Laranja 6",
     "000000": "Beltza",
     "343a40": "Grisa 8",
-    "495057": "Grisa 7",
     "c92a2a": "Gorria 9",
     "a61e4d": "Arrosa 9",
     "862e9c": "Mahats kolorea 9",

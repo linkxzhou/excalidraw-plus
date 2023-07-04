@@ -18,9 +18,7 @@ export const NewSceneDialog = ({
   // elements,
   appState,
   setAppState,
-}: // files,
-// exportPadding = DEFAULT_EXPORT_PADDING,
-// actionManager,
+}: // files
 {
   appState: AppState;
   setAppState: React.Component<any, AppState>["setState"];
@@ -42,7 +40,10 @@ export const NewSceneDialog = ({
           <input
             type="text"
             placeholder={t("labels.inputNewContainerName")}
-            style={{ minWidth: 500 }}
+            style={{
+              minWidth: "90%",
+              maxWidth: "100%",
+            }}
             defaultValue={newContainerName}
             onChange={(e) => {
               setNewContainerName(e.target.value);
@@ -53,20 +54,23 @@ export const NewSceneDialog = ({
               whiteSpace: "nowrap",
               padding: "0 20px",
               marginTop: 10,
-              width: 70,
-              backgroundColor: "#6965db",
+              minWidth: 100,
+              maxWidth: 200,
+              backgroundColor: "var(--color-primary)",
               color: "#fff",
             }}
             onSelect={() => {
               const containerList: string[] = getContainerListFromStorage();
 
               if (containerList.includes(newContainerName)) {
-                message.error(`画布 ${newContainerName} 已存在，无需重复创建`);
+                message.error(
+                  `${newContainerName} ${t("canvasError.canvasRepeat")}`,
+                );
                 return;
               }
 
               if (RESVERED_LOCALSTORAGE_KEYS.includes(newContainerName)) {
-                message.error(`请不要以 excalidraw_ 开头进行画布命名`);
+                message.error(t("canvasError.canvasNameInvalid"));
                 return;
               }
 

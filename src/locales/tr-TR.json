@@ -126,7 +126,8 @@
       "unlockAll": "Hepsinin kilidini kaldır"
     },
     "statusPublished": "Yayınlandı",
-    "sidebarLock": "Kenar çubuğu açık kalsın"
+    "sidebarLock": "Kenar çubuğu açık kalsın",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Öğe eklenmedi...",
@@ -170,7 +171,9 @@
     "remove": "Kaldır",
     "publishLibrary": "Yayınla",
     "submit": "Gönder",
-    "confirm": "Onayla"
+    "confirm": "Onayla",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Tuvalin tamamı temizlenecek. Emin misiniz?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Önizleme gösterilemiyor",
     "canvasTooBig": "Kanvas çok büyük olabilir.",
-    "canvasTooBigTip": "İpucu: En uzaktaki elemanları birbirine yakınlaştırmayı deneyin."
+    "canvasTooBigTip": "İpucu: En uzaktaki elemanları birbirine yakınlaştırmayı deneyin.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Hata oluştu. Lütfen ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Tekil obje olarak yapıştırmak için veya var olan bir metin editörüne yapıştırmak için {{shortcut}} kullanın"
   },
   "colors": {
+    "495057": "Gri 7",
     "ffffff": "Beyaz",
     "f8f9fa": "Gri 0",
     "f1f3f5": "Gri 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Turuncu 6",
     "000000": "Siyah",
     "343a40": "Gri 8",
-    "495057": "Gri 7",
     "c92a2a": "Kırmızı 9",
     "a61e4d": "Pembe 9",
     "862e9c": "Koyu Mor 9",

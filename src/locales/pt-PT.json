@@ -126,7 +126,8 @@
       "unlockAll": "Desbloquear todos"
     },
     "statusPublished": "Publicado",
-    "sidebarLock": "Manter a barra lateral aberta"
+    "sidebarLock": "Manter a barra lateral aberta",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Ainda não foram adicionados nenhuns itens...",
@@ -170,7 +171,9 @@
     "remove": "Remover",
     "publishLibrary": "Publicar",
     "submit": "Enviar",
-    "confirm": "Confirmar"
+    "confirm": "Confirmar",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Isto irá limpar toda a área de desenho. Tem a certeza?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Não é possível mostrar uma pré-visualização",
     "canvasTooBig": "A área de desenho pode ser muito grande.",
-    "canvasTooBigTip": "Dica: tente aproximar um pouco os elementos mais distantes."
+    "canvasTooBigTip": "Dica: tente aproximar um pouco os elementos mais distantes.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Foi encontrado um erro. Tente ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Usar {{shortcut}} para colar como um único elemento,\nou colar num editor de texto existente"
   },
   "colors": {
+    "495057": "Cinza 7",
     "ffffff": "Branco",
     "f8f9fa": "Cinza 0",
     "f1f3f5": "Cinza 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Laranja 6",
     "000000": "Preto",
     "343a40": "Cinza 8",
-    "495057": "Cinza 7",
     "c92a2a": "Vermelho 9",
     "a61e4d": "Rosa 9",
     "862e9c": "Uva 9",

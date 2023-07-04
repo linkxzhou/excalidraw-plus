@@ -126,7 +126,8 @@
       "unlockAll": "सर्व कुलूपातून बाहेर"
     },
     "statusPublished": "प्रकाशित करा",
-    "sidebarLock": "साइडबार उघडं ठेवा"
+    "sidebarLock": "साइडबार उघडं ठेवा",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "अजून कोणतेही आइटम जोडलेले नाही...",
@@ -170,7 +171,9 @@
     "remove": "हटवा",
     "publishLibrary": "प्रकाशित करा",
     "submit": "जमा करा",
-    "confirm": "पुष्टि करा"
+    "confirm": "पुष्टि करा",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "पटल स्वच्छ होणार, तुम्हाला खात्री आहे का?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "पूर्वावलोकन दाखवू शकत नाही",
     "canvasTooBig": "पटल खूप जास्त मोठा असू शकतो.",
-    "canvasTooBigTip": "टीप: दूर चा तत्व थोडं जवळ आणण्याचा प्रयत्न करावा."
+    "canvasTooBigTip": "टीप: दूर चा तत्व थोडं जवळ आणण्याचा प्रयत्न करावा.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "त्रुटि आली. परत प्रयत्न करा ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "एक घटक म्हणून चिपकावण्या साठी {{shortcut}} वापरा,\nकिंवा विद्यमान मजकूर संपादकात चिपकवा"
   },
   "colors": {
+    "495057": "करडा 7",
     "ffffff": "पांढरा",
     "f8f9fa": "करडा 0",
     "f1f3f5": "करडा 1",
@@ -432,7 +438,6 @@
     "fd7e14": "नारंगी 6",
     "000000": "काळा",
     "343a40": "करडा 8",
-    "495057": "करडा 7",
     "c92a2a": "लाल 9",
     "a61e4d": "गुलाबी 9",
     "862e9c": "अंगूरी 9",

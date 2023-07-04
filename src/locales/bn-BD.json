@@ -126,7 +126,8 @@
       "unlockAll": "সব বিচ্ছিন্ন করুন"
     },
     "statusPublished": "প্রকাশিত",
-    "sidebarLock": "লক"
+    "sidebarLock": "লক",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "সংগ্রহে কিছু যোগ করা হয়নি",
@@ -170,7 +171,9 @@
     "remove": "বিয়োগ",
     "publishLibrary": "সংগ্রহ প্রকাশ করুন",
     "submit": "জমা করুন",
-    "confirm": "নিশ্চিত করুন"
+    "confirm": "নিশ্চিত করুন",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "এটি পুরো ক্যানভাস সাফ করবে। আপনি কি নিশ্চিত?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "প্রিভিউ দেখাতে অপারগ",
     "canvasTooBig": "ক্যানভাস অনেক বড়।",
-    "canvasTooBigTip": "বিশেষ্য: দূরতম উপাদানগুলোকে একটু কাছাকাছি নিয়ে যাওয়ার চেষ্টা করুন।"
+    "canvasTooBigTip": "বিশেষ্য: দূরতম উপাদানগুলোকে একটু কাছাকাছি নিয়ে যাওয়ার চেষ্টা করুন।",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "একটি ত্রুটির সম্মুখীন হয়েছে৷ চেষ্টা করুন ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "",
     "ffffff": "সাদা",
     "f8f9fa": "",
     "f1f3f5": "",
@@ -432,7 +438,6 @@
     "fd7e14": "",
     "000000": "কালো",
     "343a40": "",
-    "495057": "",
     "c92a2a": "",
     "a61e4d": "",
     "862e9c": "",

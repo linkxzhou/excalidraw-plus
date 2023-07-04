@@ -126,7 +126,8 @@
       "unlockAll": "שחרור הכול"
     },
     "statusPublished": "",
-    "sidebarLock": ""
+    "sidebarLock": "",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "",
@@ -170,7 +171,9 @@
     "remove": "מחיקה",
     "publishLibrary": "פירסום",
     "submit": "שליחה",
-    "confirm": "לאשר"
+    "confirm": "לאשר",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "פעולה זו תנקה את כל הלוח. אתה בטוח?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "לא הצלחנו להציג את התצוגה המקדימה",
     "canvasTooBig": "הקנבס עלול להיות גדול מדי.",
-    "canvasTooBigTip": "טיפ: נסה להזיז את האלמנטים הרחוקים ביותר מעט קרוב יותר יחד."
+    "canvasTooBigTip": "טיפ: נסה להזיז את האלמנטים הרחוקים ביותר מעט קרוב יותר יחד.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "אירעה שגיאה. נסה ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "אפור 7",
     "ffffff": "לבן",
     "f8f9fa": "אפור 0",
     "f1f3f5": "אפור 1",
@@ -432,7 +438,6 @@
     "fd7e14": "כתום 6",
     "000000": "שחור",
     "343a40": "אפור 8",
-    "495057": "אפור 7",
     "c92a2a": "אדום 9",
     "a61e4d": "ורוד 9",
     "862e9c": "ענבים 9",

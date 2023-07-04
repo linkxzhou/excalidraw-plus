@@ -126,7 +126,8 @@
       "unlockAll": "Desbloca-ho tot"
     },
     "statusPublished": "Publicat",
-    "sidebarLock": "Manté la barra lateral oberta"
+    "sidebarLock": "Manté la barra lateral oberta",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Encara no s'hi han afegit elements...",
@@ -170,7 +171,9 @@
     "remove": "Suprimeix",
     "publishLibrary": "Publica",
     "submit": "Envia",
-    "confirm": "Confirma"
+    "confirm": "Confirma",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "S'esborrarà tot el llenç. N'esteu segur?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "No es pot mostrar la previsualització",
     "canvasTooBig": "Pot ser que el llenç sigui massa gran.",
-    "canvasTooBigTip": "Consell: proveu d’acostar una mica els elements més allunyats."
+    "canvasTooBigTip": "Consell: proveu d’acostar una mica els elements més allunyats.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "S'ha produït un error. Proveu ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "Gris 7",
     "ffffff": "Blanc",
     "f8f9fa": "Gris 0",
     "f1f3f5": "Gris 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Taronja 6",
     "000000": "Negre",
     "343a40": "Gris 8",
-    "495057": "Gris 7",
     "c92a2a": "Vermell 9",
     "a61e4d": "Rosa 9",
     "862e9c": "Malva 9",

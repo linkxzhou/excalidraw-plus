@@ -126,7 +126,8 @@
       "unlockAll": "모두 잠금 해제"
     },
     "statusPublished": "게시됨",
-    "sidebarLock": "사이드바 유지"
+    "sidebarLock": "사이드바 유지",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "추가된 아이템 없음",
@@ -170,7 +171,9 @@
     "remove": "삭제",
     "publishLibrary": "게시하기",
     "submit": "제출",
-    "confirm": "확인"
+    "confirm": "확인",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "모든 작업 내용이 초기화됩니다. 계속하시겠습니까?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "미리보기를 볼 수 없습니다",
     "canvasTooBig": "캔버스가 너무 큽니다.",
-    "canvasTooBigTip": "팁: 멀리 있는 요소들을 좀 더 가까이로 붙여 보세요."
+    "canvasTooBigTip": "팁: 멀리 있는 요소들을 좀 더 가까이로 붙여 보세요.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "오류가 발생했습니다. ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "단일 요소로 붙여넣거나, 기존 텍스트 에디터에 붙여넣으려면 {{shortcut}} 을 사용하세요."
   },
   "colors": {
+    "495057": "회색 7",
     "ffffff": "화이트",
     "f8f9fa": "회색 0",
     "f1f3f5": "회색 1",
@@ -432,7 +438,6 @@
     "fd7e14": "주황색 6",
     "000000": "검정색",
     "343a40": "회색 8",
-    "495057": "회색 7",
     "c92a2a": "빨강색 9",
     "a61e4d": "핑크색 9",
     "862e9c": "그레이프 9",

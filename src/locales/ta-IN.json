@@ -126,7 +126,8 @@
       "unlockAll": "எல்லாம் பூட்டவிழ்"
     },
     "statusPublished": "வெளியிடப்பட்டது",
-    "sidebarLock": "பக்கப்பட்டையைத் திறந்தே வை"
+    "sidebarLock": "பக்கப்பட்டையைத் திறந்தே வை",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "இதுவரை உருப்படிகள் சேரக்கப்படவில்லை...",
@@ -170,7 +171,9 @@
     "remove": "நீக்கு",
     "publishLibrary": "பிரசுரி",
     "submit": "சமர்ப்பி",
-    "confirm": "உறுதிசெய்"
+    "confirm": "உறுதிசெய்",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "இது முழு கித்தானையும் துடைக்கும். நீங்கள் உறுதியா?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "முன்னோட்டம் காட்ட இயலவில்லை",
     "canvasTooBig": "கித்தான் மிகப்பெரிதாக இருக்கலாம்.",
-    "canvasTooBigTip": "துணுக்குதவி: தூரத்திலுள்ள உறுப்புகளைப் நெருக்கமாக நகர்த்தப்பார்."
+    "canvasTooBigTip": "துணுக்குதவி: தூரத்திலுள்ள உறுப்புகளைப் நெருக்கமாக நகர்த்தப்பார்.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "பிழையைச் சந்தித்தீரா. முயலவும் ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "சாம்பல்நிறம் 7",
     "ffffff": "வெள்ளை",
     "f8f9fa": "சாம்பல்நிறம் 0",
     "f1f3f5": "சாம்பல்நிறம் 1",
@@ -432,7 +438,6 @@
     "fd7e14": "ஆரஞ்சு 6",
     "000000": "கருப்பு",
     "343a40": "சாம்பல்நிறம் 8",
-    "495057": "சாம்பல்நிறம் 7",
     "c92a2a": "சிகப்பு 9",
     "a61e4d": "இளஞ்சிவப்பு 9",
     "862e9c": "திராட்சை 9",

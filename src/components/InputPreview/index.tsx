@@ -31,9 +31,10 @@ function InputPreview(props: InputProps & { onSave?: (value: any) => void }) {
       />
     );
   }
+
   return (
     <span
-      title={`画布名称: ${value || defaultValue}`}
+      title={`${value || defaultValue}`}
       style={{ cursor: "pointer", whiteSpace: "nowrap", color: "#999" }}
       onClick={() => {
         setIsEditable(true);

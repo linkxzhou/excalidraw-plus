@@ -126,7 +126,8 @@
       "unlockAll": ""
     },
     "statusPublished": "",
-    "sidebarLock": ""
+    "sidebarLock": "",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "",
@@ -170,7 +171,9 @@
     "remove": "ਹਟਾਓ",
     "publishLibrary": "ਪ੍ਰਕਾਸ਼ਤ ਕਰੋ",
     "submit": "ਜਮ੍ਹਾ ਕਰਵਾਓ",
-    "confirm": "ਪੁਸ਼ਟੀ ਕਰੋ"
+    "confirm": "ਪੁਸ਼ਟੀ ਕਰੋ",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "ਇਹ ਸਾਰਾ ਕੈਨਵਸ ਸਾਫ ਕਰ ਦੇਵੇਗਾ। ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇੰਝ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "ਝਲਕ ਨਹੀਂ ਦਿਖਾ ਸਕਦੇ",
     "canvasTooBig": "ਸ਼ਾਇਦ ਕੈਨਵਸ ਬਹੁਤ ਜ਼ਿਆਦਾ ਵੱਡਾ ਹੈ।",
-    "canvasTooBigTip": "ਨੁਸਖਾ: ਸਭ ਤੋਂ ਦੂਰ ਸਥਿੱਤ ਐਲੀਮੈਂਟਾਂ ਨੂੰ ਥੋੜ੍ਹਾ ਜਿਹਾ ਨੇੜੇ ਲਿਆ ਕੇ ਦੇਖੋ।"
+    "canvasTooBigTip": "ਨੁਸਖਾ: ਸਭ ਤੋਂ ਦੂਰ ਸਥਿੱਤ ਐਲੀਮੈਂਟਾਂ ਨੂੰ ਥੋੜ੍ਹਾ ਜਿਹਾ ਨੇੜੇ ਲਿਆ ਕੇ ਦੇਖੋ।",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "ਗਲਤੀ ਹੋਈ। ਇਹ ਕਰਕੇ ਦੇਖੋ ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "ਸੁਰਮਈ 7",
     "ffffff": "ਚਿੱਟਾ",
     "f8f9fa": "ਸੁਰਮਈ 0",
     "f1f3f5": "ਸੁਰਮਈ 1",
@@ -432,7 +438,6 @@
     "fd7e14": "ਸੰਤਰੀ 6",
     "000000": "ਕਾਲਾ",
     "343a40": "ਸੁਰਮਈ 8",
-    "495057": "ਸੁਰਮਈ 7",
     "c92a2a": "ਲਾਲ 9",
     "a61e4d": "ਗੁਲਾਬੀ 9",
     "862e9c": "ਅੰਗੂਰੀ 9",

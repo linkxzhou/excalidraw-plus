@@ -126,7 +126,8 @@
       "unlockAll": "Odemknout vše"
     },
     "statusPublished": "Zveřejněno",
-    "sidebarLock": "Ponechat postranní panel otevřený"
+    "sidebarLock": "Ponechat postranní panel otevřený",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Dosud neexistují žádné položky...",
@@ -170,7 +171,9 @@
     "remove": "Odstranit",
     "publishLibrary": "Zveřejnit",
     "submit": "Odeslat",
-    "confirm": "Potvrdit"
+    "confirm": "Potvrdit",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Toto vymaže celé plátno. Jste si jisti?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "",
     "canvasTooBig": "",
-    "canvasTooBigTip": ""
+    "canvasTooBigTip": "",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "Šedá 7",
     "ffffff": "Bílá",
     "f8f9fa": "Šedá 0",
     "f1f3f5": "Šedá 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Oranžová 6",
     "000000": "Černá",
     "343a40": "Šedá 8",
-    "495057": "Šedá 7",
     "c92a2a": "Červená 9",
     "a61e4d": "Růžová 9",
     "862e9c": "Vínová 9",

@@ -126,7 +126,8 @@
       "unlockAll": ""
     },
     "statusPublished": "",
-    "sidebarLock": ""
+    "sidebarLock": "",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "",
@@ -170,7 +171,9 @@
     "remove": "",
     "publishLibrary": "",
     "submit": "",
-    "confirm": ""
+    "confirm": "",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "ကားချပ်တစ်ခုလုံးရှင်းလင်းပါတော့မည်။ အတည်ပြုပါ။",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "နမူနာမပြသနိုင်ပါ",
     "canvasTooBig": "ကားချပ်အလွန်ကြီးကောင်းကြီးနေနိုင်သည်။",
-    "canvasTooBigTip": "မှတ်ချက်။ ။ဝေးကွာနေသော ပုံများ၊ စာများအား ပိုမိုနီးကပ်အောင်ရွှေ့ကြည့်ပါ။"
+    "canvasTooBigTip": "မှတ်ချက်။ ။ဝေးကွာနေသော ပုံများ၊ စာများအား ပိုမိုနီးကပ်အောင်ရွှေ့ကြည့်ပါ။",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "ချို့ယွင်းမှုဖြစ်ပေါ်ခဲ့သဖြင့် ထပ်မံကြိုးစားကြည့်ရန် ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "",
     "ffffff": "",
     "f8f9fa": "",
     "f1f3f5": "",
@@ -432,7 +438,6 @@
     "fd7e14": "",
     "000000": "",
     "343a40": "",
-    "495057": "",
     "c92a2a": "",
     "a61e4d": "",
     "862e9c": "",

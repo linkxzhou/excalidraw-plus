@@ -126,7 +126,8 @@
       "unlockAll": "Odomknúť všetko"
     },
     "statusPublished": "Zverejnené",
-    "sidebarLock": "Nechať bočný panel otvorený"
+    "sidebarLock": "Nechať bočný panel otvorený",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Zatiaľ neboli pridané žiadne položky...",
@@ -170,7 +171,9 @@
     "remove": "Odstrániť",
     "publishLibrary": "Uverejniť",
     "submit": "Potvrdiť",
-    "confirm": "Potvrdiť"
+    "confirm": "Potvrdiť",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Týmto sa vyčistí celé plátno. Ste si istí?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Nie je možné zobraziť náhľad plátna",
     "canvasTooBig": "Plátno je možno príliš veľké.",
-    "canvasTooBigTip": "Tip: skúste presunúť najvzdialenejšie prvky bližšie k sebe."
+    "canvasTooBigTip": "Tip: skúste presunúť najvzdialenejšie prvky bližšie k sebe.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Nastala chyba. Vyskúšajte ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Použitím {{shortcut}} vložte ako samostatný prvok alebo vložte do existujúceho editovaného textu"
   },
   "colors": {
+    "495057": "Sivá 7",
     "ffffff": "Biela",
     "f8f9fa": "Sivá 0",
     "f1f3f5": "Sivá 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Oranžová 6",
     "000000": "Čierna",
     "343a40": "Sivá 8",
-    "495057": "Sivá 7",
     "c92a2a": "Červená 9",
     "a61e4d": "Ružová 9",
     "862e9c": "Hroznová fialová 9",

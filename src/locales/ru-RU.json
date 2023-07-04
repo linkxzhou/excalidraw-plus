@@ -126,7 +126,8 @@
       "unlockAll": "Разблокировать все"
     },
     "statusPublished": "Опубликовано",
-    "sidebarLock": "Держать боковую панель открытой"
+    "sidebarLock": "Держать боковую панель открытой",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Пока ничего не добавлено...",
@@ -170,7 +171,9 @@
     "remove": "Удалить",
     "publishLibrary": "Опубликовать",
     "submit": "Отправить",
-    "confirm": "Подтвердить"
+    "confirm": "Подтвердить",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Это очистит весь холст. Вы уверены?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Не удается отобразить предпросмотр",
     "canvasTooBig": "Сцена слишком большая.",
-    "canvasTooBigTip": "Совет: попробуйте сблизить элементы рисунка."
+    "canvasTooBigTip": "Совет: попробуйте сблизить элементы рисунка.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Возникла ошибка. Попробуйте ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Используйте {{shortcut}}, чтобы вставить один объект,\nили вставьте в существующий текстовый редактор"
   },
   "colors": {
+    "495057": "Серый 7",
     "ffffff": "Белый",
     "f8f9fa": "Серый 0",
     "f1f3f5": "Серый 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Оранжевый 6",
     "000000": "Чёрный",
     "343a40": "Серый 8",
-    "495057": "Серый 7",
     "c92a2a": "Красный 9",
     "a61e4d": "Розовый 9",
     "862e9c": "Виноградный 9",

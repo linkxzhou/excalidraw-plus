@@ -126,7 +126,8 @@
       "unlockAll": "Serreḥ akk"
     },
     "statusPublished": "Yeffeɣ-d",
-    "sidebarLock": "Eǧǧ afeggag n yidis yeldi"
+    "sidebarLock": "Eǧǧ afeggag n yidis yeldi",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Ulac iferdisen yettwarnan yakan...",
@@ -170,7 +171,9 @@
     "remove": "Kkes",
     "publishLibrary": "Ẓreg",
     "submit": "Azen",
-    "confirm": "Sentem"
+    "confirm": "Sentem",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Ayagi ad isfeḍ akk taɣzut n usuneɣ. Tetḥeqqeḍ?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Ulamek abeqqeḍ n teskant",
     "canvasTooBig": "Taɣzut n usuneɣ tezmer ad tili temeqqer aṭas.",
-    "canvasTooBigTip": "Tixidest: eɛreḍ ad tesqerbeḍ ciṭ iferdisen yembaɛaden."
+    "canvasTooBigTip": "Tixidest: eɛreḍ ad tesqerbeḍ ciṭ iferdisen yembaɛaden.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Teḍra-d tuccḍa. Eɛreḍ ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "Aɣiɣdi 7",
     "ffffff": "Amellal",
     "f8f9fa": "Aɣiɣdi 0",
     "f1f3f5": "Aɣiɣdi 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Aččinawi 6",
     "000000": "Aberkan",
     "343a40": "Aɣiɣdi 8",
-    "495057": "Aɣiɣdi 7",
     "c92a2a": "Azeggaɣ 9",
     "a61e4d": "Axuxi 9",
     "862e9c": "Tiẓurin 9",

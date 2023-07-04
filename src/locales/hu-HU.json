@@ -126,7 +126,8 @@
       "unlockAll": ""
     },
     "statusPublished": "",
-    "sidebarLock": ""
+    "sidebarLock": "",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "",
@@ -170,7 +171,9 @@
     "remove": "Eltávolítás",
     "publishLibrary": "Közzététel",
     "submit": "Elküldés",
-    "confirm": "Megerősítés"
+    "confirm": "Megerősítés",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Ez a művelet törli a vászont. Biztos benne?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Előnézet nem jeleníthető meg",
     "canvasTooBig": "A vászon talán túl nagy.",
-    "canvasTooBigTip": "Tipp: próbáld meg a legtávolabbi elemeket közelebb hozni egy máshoz."
+    "canvasTooBigTip": "Tipp: próbáld meg a legtávolabbi elemeket közelebb hozni egy máshoz.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Hiba történt. Próbáld ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "Szürke 7",
     "ffffff": "Fehér",
     "f8f9fa": "Szürke 0",
     "f1f3f5": "Szürke 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Narancs 6",
     "000000": "Fekete",
     "343a40": "Szürke 8",
-    "495057": "Szürke 7",
     "c92a2a": "Piros 9",
     "a61e4d": "Pink 9",
     "862e9c": "Szőlő 9",

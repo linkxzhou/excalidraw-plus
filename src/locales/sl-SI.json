@@ -126,7 +126,8 @@
       "unlockAll": "Odkleni vse"
     },
     "statusPublished": "Objavljeno",
-    "sidebarLock": "Obdrži stransko vrstico odprto"
+    "sidebarLock": "Obdrži stransko vrstico odprto",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Dodan še ni noben element...",
@@ -170,7 +171,9 @@
     "remove": "Odstrani",
     "publishLibrary": "Objavi",
     "submit": "Pošlji",
-    "confirm": "Potrdi"
+    "confirm": "Potrdi",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "To bo počistilo celotno platno. Ali ste prepričani?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Predogleda ni bilo mogoče prikazati",
     "canvasTooBig": "Morda je platno preveliko.",
-    "canvasTooBigTip": "Nasvet: poskusite premakniti najbolj oddaljene elemente nekoliko bližje skupaj."
+    "canvasTooBigTip": "Nasvet: poskusite premakniti najbolj oddaljene elemente nekoliko bližje skupaj.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Prišlo je do napake. Poskusite ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Uporabite {{shortcut}}, da prilepite kot en element,\n ali prilepite v obstoječ urejevalnik besedil"
   },
   "colors": {
+    "495057": "Siva 7",
     "ffffff": "Bela",
     "f8f9fa": "Siva 0",
     "f1f3f5": "Siva 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Oranžna 6",
     "000000": "Črna",
     "343a40": "Siva 8",
-    "495057": "Siva 7",
     "c92a2a": "Rdeča 9",
     "a61e4d": "Roza 9",
     "862e9c": "Grozdje 9",

@@ -126,7 +126,8 @@
       "unlockAll": "Atbrīvot visu"
     },
     "statusPublished": "Publicēts",
-    "sidebarLock": "Paturēt atvērtu sānjoslu"
+    "sidebarLock": "Paturēt atvērtu sānjoslu",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Neviena vienība vēl nav pievienota...",
@@ -170,7 +171,9 @@
     "remove": "Noņemt",
     "publishLibrary": "Publicēt",
     "submit": "Iesniegt",
-    "confirm": "Apstiprināt"
+    "confirm": "Apstiprināt",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Šī funkcija notīrīs visu tāfeli. Vai turpināt?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Nevar rādīt priekšskatījumu",
     "canvasTooBig": "Iespējams, tāfele ir par lielu.",
-    "canvasTooBigTip": "Ieteikums: mēģiniet satuvināt pašus tālākos elementus."
+    "canvasTooBigTip": "Ieteikums: mēģiniet satuvināt pašus tālākos elementus.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Notikusi kļūda. Mēģiniet ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Izmantojiet {{shortcut}}, lai ielīmētu kā jaunu elementu, vai ielīmētu esošā teksta lauciņā"
   },
   "colors": {
+    "495057": "Pelēks 7",
     "ffffff": "Balts",
     "f8f9fa": "Pelēks 0",
     "f1f3f5": "Pelēks 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Oranžs 6",
     "000000": "Melns",
     "343a40": "Pelēks 8",
-    "495057": "Pelēks 7",
     "c92a2a": "Sarkans 9",
     "a61e4d": "Rozā 9",
     "862e9c": "Vīnogu 9",

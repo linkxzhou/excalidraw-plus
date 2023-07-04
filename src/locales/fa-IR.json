@@ -126,7 +126,8 @@
       "unlockAll": "باز کردن قفل همه"
     },
     "statusPublished": "منتشر شده",
-    "sidebarLock": "باز نگه داشتن سایدبار"
+    "sidebarLock": "باز نگه داشتن سایدبار",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "آیتمی به اینجا اضافه نشده...",
@@ -170,7 +171,9 @@
     "remove": "پاک کردن",
     "publishLibrary": "انتشار",
     "submit": "ارسال",
-    "confirm": "تایید"
+    "confirm": "تایید",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "این کار کل صفحه را پاک میکند. آیا مطمئنید؟",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "پیش نمایش نشان داده نمی شود",
     "canvasTooBig": "بوم نقاشی بسیار بزرگ است.",
-    "canvasTooBigTip": "نکته: سعی کنید دورترین عناصر را کمی به همدیگر نزدیک کنید."
+    "canvasTooBigTip": "نکته: سعی کنید دورترین عناصر را کمی به همدیگر نزدیک کنید.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "با مشکلی مواجه شدیم. این را امتحان کنید ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "خاکستری 7",
     "ffffff": "سفید",
     "f8f9fa": "خاکستری 0",
     "f1f3f5": "خاکستری 1",
@@ -432,7 +438,6 @@
     "fd7e14": "نارنجی 6",
     "000000": "سیاه",
     "343a40": "خاکستری 8",
-    "495057": "خاکستری 7",
     "c92a2a": "قرمز 9",
     "a61e4d": "صورتی 9",
     "862e9c": "انگوری 9",

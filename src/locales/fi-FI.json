@@ -126,7 +126,8 @@
       "unlockAll": ""
     },
     "statusPublished": "Julkaistu",
-    "sidebarLock": "Pidä sivupalkki avoinna"
+    "sidebarLock": "Pidä sivupalkki avoinna",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Kirjastossa ei ole vielä yhtään kohdetta...",
@@ -170,7 +171,9 @@
     "remove": "Poista",
     "publishLibrary": "Julkaise",
     "submit": "Lähetä",
-    "confirm": "Vahvista"
+    "confirm": "Vahvista",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Tämä tyhjentää koko piirtoalueen. Jatketaanko?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Esikatselua ei voitu näyttää",
     "canvasTooBig": "Piirtoalue saattaa olla liian suuri.",
-    "canvasTooBigTip": "Vinkki: yritä siirtää kaukaisimpia elementtejä hieman lähemmäs toisiaan."
+    "canvasTooBigTip": "Vinkki: yritä siirtää kaukaisimpia elementtejä hieman lähemmäs toisiaan.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Tapahtui virhe. Yritä ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "Harmaa 7",
     "ffffff": "Valkoinen",
     "f8f9fa": "Harmaa 0",
     "f1f3f5": "Harmaa 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Oranssi 6",
     "000000": "Musta",
     "343a40": "Harmaa 8",
-    "495057": "Harmaa 7",
     "c92a2a": "Punainen 9",
     "a61e4d": "Pinkki 9",
     "862e9c": "Rypäle 9",

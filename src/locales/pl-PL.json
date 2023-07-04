@@ -126,7 +126,8 @@
       "unlockAll": ""
     },
     "statusPublished": "",
-    "sidebarLock": ""
+    "sidebarLock": "",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "",
@@ -170,7 +171,9 @@
     "remove": "Usuń",
     "publishLibrary": "Opublikuj",
     "submit": "Prześlij",
-    "confirm": "Zatwierdź"
+    "confirm": "Zatwierdź",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "To spowoduje usunięcie wszystkiego z dokumentu. Czy chcesz kontynuować?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Nie można wyświetlić podglądu",
     "canvasTooBig": "Obszar roboczy może być za duży.",
-    "canvasTooBigTip": "Wskazówka: spróbuj nieco zbliżyć najdalej wysunięte elementy."
+    "canvasTooBigTip": "Wskazówka: spróbuj nieco zbliżyć najdalej wysunięte elementy.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Wystąpił błąd. Spróbuj ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "Szary 7",
     "ffffff": "Biały",
     "f8f9fa": "Szary 0",
     "f1f3f5": "Szary 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Pomarańczowy 6",
     "000000": "Czarny",
     "343a40": "Szary 8",
-    "495057": "Szary 7",
     "c92a2a": "Czerwony 9",
     "a61e4d": "Różowy 9",
     "862e9c": "Bordowy 9",

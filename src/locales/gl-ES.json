@@ -126,7 +126,8 @@
       "unlockAll": "Desbloquear todo"
     },
     "statusPublished": "Publicado",
-    "sidebarLock": "Manter a barra lateral aberta"
+    "sidebarLock": "Manter a barra lateral aberta",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "Aínda non hai elementos engadidos...",
@@ -170,7 +171,9 @@
     "remove": "Eliminar",
     "publishLibrary": "Publicar",
     "submit": "Enviar",
-    "confirm": "Confirmar"
+    "confirm": "Confirmar",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Isto limpará todo o lenzo. Estás seguro?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Non se pode mostrar a vista previa",
     "canvasTooBig": "Pode que o lenzo sexa demasiado grande.",
-    "canvasTooBigTip": "Consello: Probe a acercar un pouco os elementos máis afastados."
+    "canvasTooBigTip": "Consello: Probe a acercar un pouco os elementos máis afastados.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Atopouse un erro. Probe ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": "Usa {{shortcut}} para pegar como un único elemento\nou pega nun editor de texto existente"
   },
   "colors": {
+    "495057": "Gris 7",
     "ffffff": "Branco",
     "f8f9fa": "Gris 0",
     "f1f3f5": "Gris 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Laranxa 6",
     "000000": "Negro",
     "343a40": "Gris 8",
-    "495057": "Gris 7",
     "c92a2a": "Vermello 9",
     "a61e4d": "Rosa 9",
     "862e9c": "Uva 9",

@@ -126,7 +126,8 @@
       "unlockAll": ""
     },
     "statusPublished": "",
-    "sidebarLock": ""
+    "sidebarLock": "",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "",
@@ -170,7 +171,9 @@
     "remove": "إزالة",
     "publishLibrary": "انشر",
     "submit": "أرسل",
-    "confirm": "تأكيد"
+    "confirm": "تأكيد",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "هذا سيُزيل كامل اللوحة. هل أنت متأكد؟",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "تعذر عرض المعاينة",
     "canvasTooBig": "قد تكون اللوحة كبيرة جداً.",
-    "canvasTooBigTip": "نصيحة: حاول تحريك العناصر البعيدة بشكل أقرب قليلاً."
+    "canvasTooBigTip": "نصيحة: حاول تحريك العناصر البعيدة بشكل أقرب قليلاً.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "حدث خطأ، حاول مرة أخرى ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "رمادي 7",
     "ffffff": "أبيض",
     "f8f9fa": "رمادي 0",
     "f1f3f5": "رمادي 1",
@@ -432,7 +438,6 @@
     "fd7e14": "برتقالي 6",
     "000000": "أسود",
     "343a40": "رمادي 8",
-    "495057": "رمادي 7",
     "c92a2a": "أحمر 9",
     "a61e4d": "وردي 9",
     "862e9c": "عنبي 9",

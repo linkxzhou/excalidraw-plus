@@ -126,7 +126,8 @@
       "unlockAll": ""
     },
     "statusPublished": "",
-    "sidebarLock": ""
+    "sidebarLock": "",
+    "inputNewContainerName": "{defaultValue}"
   },
   "library": {
     "noItems": "",
@@ -170,7 +171,9 @@
     "remove": "Fjern",
     "publishLibrary": "Publiser",
     "submit": "Send inn",
-    "confirm": "Stadfest"
+    "confirm": "Stadfest",
+    "switchScene": "{defaultValue}",
+    "newScene": "{defaultValue}"
   },
   "alerts": {
     "clearReset": "Dette vil tømme lerretet. Er du sikker?",
@@ -250,7 +253,9 @@
   "canvasError": {
     "cannotShowPreview": "Kan ikkje vise førehandsvising",
     "canvasTooBig": "Lerretet er mogleg for stort.",
-    "canvasTooBigTip": "Tips: prøv å flytte elementa som er lengst frå kvarandre, litt nærare kvarandre."
+    "canvasTooBigTip": "Tips: prøv å flytte elementa som er lengst frå kvarandre, litt nærare kvarandre.",
+    "canvasRepeat": "{defaultValue}",
+    "canvasNameInvalid": "{defaultValue}"
   },
   "errorSplash": {
     "headingMain_pre": "Ein feil oppstod. Prøv ",
@@ -400,6 +405,7 @@
     "pasteAsSingleElement": ""
   },
   "colors": {
+    "495057": "Grå 7",
     "ffffff": "Kvit",
     "f8f9fa": "Grå 0",
     "f1f3f5": "Grå 1",
@@ -432,7 +438,6 @@
     "fd7e14": "Oransje 6",
     "000000": "Svart",
     "343a40": "Grå 8",
-    "495057": "Grå 7",
     "c92a2a": "Raud 9",
     "a61e4d": "Rosa 9",
     "862e9c": "Drue 9",
