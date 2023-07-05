@@ -375,9 +375,9 @@ export const HelpDialog = ({ onClose }: { onClose?: () => void }) => {
               shortcuts={
                 isWindows
                   ? [
-                    getShortcutKey("CtrlOrCmd+Y"),
-                    getShortcutKey("CtrlOrCmd+Shift+Z"),
-                  ]
+                      getShortcutKey("CtrlOrCmd+Y"),
+                      getShortcutKey("CtrlOrCmd+Shift+Z"),
+                    ]
                   : [getShortcutKey("CtrlOrCmd+Shift+Z")]
               }
             />
