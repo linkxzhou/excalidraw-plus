@@ -127,7 +127,8 @@
     },
     "statusPublished": "Yeffeɣ-d",
     "sidebarLock": "Eǧǧ afeggag n yidis yeldi",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Ulac iferdisen yettwarnan yakan...",

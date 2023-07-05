@@ -24,7 +24,7 @@
     column-gap: 0.5rem;
   }
 
-  .color-picker-control-container + .popover {
+  .color-picker-control-container+.popover {
     position: static;
   }
 
@@ -140,8 +140,7 @@
 
   .color-picker-transparent,
   .color-picker-label-swatch {
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMUlEQVQ4T2NkYGAQYcAP3uCTZhw1gGGYhAGBZIA/nYDCgBDAm9BGDWAAJyRCgLaBCAAgXwixzAS0pgAAAABJRU5ErkJggg==")
-      left center;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMUlEQVQ4T2NkYGAQYcAP3uCTZhw1gGGYhAGBZIA/nYDCgBDAm9BGDWAAJyRCgLaBCAAgXwixzAS0pgAAAABJRU5ErkJggg==") left center;
   }
 
   .color-picker-hash {
@@ -277,6 +276,7 @@
     .color-picker-type-elementBackground .color-picker-keybinding {
       color: $oc-black;
     }
+
     .color-picker-swatch[aria-label="transparent"] .color-picker-keybinding {
       color: $oc-black;
     }

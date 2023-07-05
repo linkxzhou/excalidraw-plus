@@ -127,7 +127,8 @@
     },
     "statusPublished": "Objavljeno",
     "sidebarLock": "Obdrži stransko vrstico odprto",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Dodan še ni noben element...",

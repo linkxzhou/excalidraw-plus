@@ -173,7 +173,7 @@ const ImageExportModal = ({
         {!nativeFileSystemSupported &&
           actionManager.renderAction("changeProjectName")}
       </div>
-      <Stack.Row gap={2} justifyContent="center" style={{ margin: "2em 0" }}>
+      <Stack.Row gap={2} justifyContent="center" style={{ margin: "1em 0" }}>
         <ExportButton
           color="indigo"
           title={t("buttons.exportToPng")}

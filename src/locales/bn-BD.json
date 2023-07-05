@@ -127,7 +127,8 @@
     },
     "statusPublished": "প্রকাশিত",
     "sidebarLock": "লক",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "সংগ্রহে কিছু যোগ করা হয়নি",

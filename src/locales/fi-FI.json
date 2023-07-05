@@ -127,7 +127,8 @@
     },
     "statusPublished": "Julkaistu",
     "sidebarLock": "Pidä sivupalkki avoinna",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Kirjastossa ei ole vielä yhtään kohdetta...",

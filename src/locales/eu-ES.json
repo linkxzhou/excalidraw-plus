@@ -127,7 +127,8 @@
     },
     "statusPublished": "Argitaratua",
     "sidebarLock": "Mantendu alboko barra irekita",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Oraindik ez da elementurik gehitu...",

@@ -127,7 +127,8 @@
     },
     "statusPublished": "Δημοσιευμένο",
     "sidebarLock": "Κρατήστε την πλαϊνή μπάρα ανοιχτή",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Δεν έχουν προστεθεί αντικείμενα ακόμη...",

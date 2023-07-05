@@ -127,7 +127,8 @@
     },
     "statusPublished": "已發布",
     "sidebarLock": "側欄維持開啟",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "尚未加入任何物件...",

@@ -127,7 +127,8 @@
     },
     "statusPublished": "Published",
     "sidebarLock": "Keep sidebar open",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "No items added yet...",

@@ -127,7 +127,8 @@
     },
     "statusPublished": "प्रकाशित",
     "sidebarLock": "साइडबार खुला रखे.",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "अभी तक कोई आइटम जोडा नहीं गया.",

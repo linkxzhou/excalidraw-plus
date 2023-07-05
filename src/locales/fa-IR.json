@@ -127,7 +127,8 @@
     },
     "statusPublished": "منتشر شده",
     "sidebarLock": "باز نگه داشتن سایدبار",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "آیتمی به اینجا اضافه نشده...",

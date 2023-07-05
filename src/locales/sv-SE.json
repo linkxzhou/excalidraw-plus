@@ -127,7 +127,8 @@
     },
     "statusPublished": "Publicerad",
     "sidebarLock": "Håll sidofältet öppet",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Inga objekt tillagda ännu...",

@@ -127,7 +127,8 @@
     },
     "statusPublished": "Gepubliceerd",
     "sidebarLock": "Zijbalk open houden",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Nog geen items toegevoegd...",

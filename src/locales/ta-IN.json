@@ -127,7 +127,8 @@
     },
     "statusPublished": "வெளியிடப்பட்டது",
     "sidebarLock": "பக்கப்பட்டையைத் திறந்தே வை",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "இதுவரை உருப்படிகள் சேரக்கப்படவில்லை...",

@@ -127,7 +127,8 @@
     },
     "statusPublished": "Publicēts",
     "sidebarLock": "Paturēt atvērtu sānjoslu",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Neviena vienība vēl nav pievienota...",

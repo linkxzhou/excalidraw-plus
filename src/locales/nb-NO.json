@@ -127,7 +127,8 @@
     },
     "statusPublished": "Publisert",
     "sidebarLock": "Holde sidemenyen åpen",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Ingen elementer lagt til ennå...",

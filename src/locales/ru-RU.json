@@ -127,7 +127,8 @@
     },
     "statusPublished": "Опубликовано",
     "sidebarLock": "Держать боковую панель открытой",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Пока ничего не добавлено...",

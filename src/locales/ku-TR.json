@@ -127,7 +127,8 @@
     },
     "statusPublished": "بڵاوکراوەتەوە",
     "sidebarLock": "هێشتنەوەی شریتی لا بە کراوەیی",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "هێشتا هیچ بڕگەیەک زیاد نەکراوە...",

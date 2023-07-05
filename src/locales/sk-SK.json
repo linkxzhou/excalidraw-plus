@@ -127,7 +127,8 @@
     },
     "statusPublished": "Zverejnené",
     "sidebarLock": "Nechať bočný panel otvorený",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "Zatiaľ neboli pridané žiadne položky...",

@@ -127,7 +127,8 @@
     },
     "statusPublished": "公開済み",
     "sidebarLock": "サイドバーを開いたままにする",
-    "inputNewContainerName": "{defaultValue}"
+    "inputNewContainerName": "{defaultValue}",
+    "extraBoldx1": "{defaultValue}"
   },
   "library": {
     "noItems": "まだアイテムが追加されていません…",

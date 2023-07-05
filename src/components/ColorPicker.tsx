@@ -72,8 +72,8 @@ const getColor = (color: string): string | null => {
   return isValidColor(`#${color}`)
     ? `#${color}`
     : isValidColor(color)
-    ? color
-    : null;
+      ? color
+      : null;
 };
 
 // This is a narrow reimplementation of the awesome react-color Twitter component
@@ -162,12 +162,12 @@ const Picker = ({
           event.key === (isRTL ? KEYS.ARROW_LEFT : KEYS.ARROW_RIGHT)
             ? (index + 1) % length
             : event.key === (isRTL ? KEYS.ARROW_RIGHT : KEYS.ARROW_LEFT)
-            ? (length + index - 1) % length
-            : !isCustom && event.key === KEYS.ARROW_DOWN
-            ? (index + 5) % length
-            : !isCustom && event.key === KEYS.ARROW_UP
-            ? (length + index - 5) % length
-            : index;
+              ? (length + index - 1) % length
+              : !isCustom && event.key === KEYS.ARROW_DOWN
+                ? (index + 5) % length
+                : !isCustom && event.key === KEYS.ARROW_UP
+                  ? (length + index - 5) % length
+                  : index;
         (parentElement.children[nextIndex] as HTMLElement | undefined)?.focus();
       }
       event.preventDefault();
@@ -182,8 +182,8 @@ const Picker = ({
       const isCustom = index >= MAX_DEFAULT_COLORS;
       const parentElement = isCustom
         ? gallery?.current?.querySelector(
-            ".color-picker-content--canvas-colors",
-          )
+          ".color-picker-content--canvas-colors",
+        )
         : gallery?.current?.querySelector(".color-picker-content--default");
       const actualIndex = isCustom ? index - MAX_DEFAULT_COLORS : index;
       (
@@ -218,9 +218,8 @@ const Picker = ({
             (event.currentTarget as HTMLButtonElement).focus();
             onChange(_color);
           }}
-          title={`${label}${
-            !isTransparent(_color) ? ` (${_color})` : ""
-          } — ${keyBinding.toUpperCase()}`}
+          title={`${label}${!isTransparent(_color) ? ` (${_color})` : ""
+            } — ${keyBinding.toUpperCase()}`}
           aria-label={label}
           aria-keyshortcuts={keyBindings[i]}
           style={{ color: _color }}

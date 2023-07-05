@@ -4,8 +4,7 @@
   .ExportDialog__preview {
     --preview-padding: calc(var(--space-factor) * 4);
 
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMUlEQVQ4T2NkYGAQYcAP3uCTZhw1gGGYhAGBZIA/nYDCgBDAm9BGDWAAJyRCgLaBCAAgXwixzAS0pgAAAABJRU5ErkJggg==")
-      left center;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMUlEQVQ4T2NkYGAQYcAP3uCTZhw1gGGYhAGBZIA/nYDCgBDAm9BGDWAAJyRCgLaBCAAgXwixzAS0pgAAAABJRU5ErkJggg==") left center;
     text-align: center;
     padding: var(--preview-padding);
     margin-bottom: calc(var(--space-factor) * 3);
@@ -39,7 +38,7 @@
       align-items: center;
     }
 
-    .ExportDialog__actions > * {
+    .ExportDialog__actions>* {
       margin-bottom: calc(var(--space-factor) * 3);
     }
 
@@ -67,6 +66,7 @@
 
       @media (max-width: 460px) {
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
         .Card-details {
           min-height: 40px;
         }
@@ -113,6 +113,7 @@
     &:hover {
       background-color: var(--button-color-darker);
     }
+
     &:active {
       background-color: var(--button-color-darkest);
       box-shadow: none;
