@@ -32,7 +32,7 @@ export const ROOM_ID_BYTES = 10;
 export const STORAGE_KEYS = {
   // LOCAL_STORAGE_ELEMENTS: "excalidraw",
   LOCAL_STORAGE_CONTAINER_LIST: "excalidraw_container_list",
-  LOCAL_STORAGE_DEFAULT_CONTAINER_NAME: "default_canvas",
+  LOCAL_STORAGE_DEFAULT_CONTAINER_NAME: "new",
   LOCAL_STORAGE_CONTAINER_ID: "excalidraw_container_id",
   LOCAL_STORAGE_CONTAINER_NAME: "excalidraw_container_name",
   LOCAL_STORAGE_APP_STATE: "excalidraw-state",
