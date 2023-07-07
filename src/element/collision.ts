@@ -64,7 +64,7 @@ export const hitTest = (
   y: number,
 ): boolean => {
   // How many pixels off the shape boundary we still consider a hit
-  const threshold = 10 / appState.zoom.value;
+  const threshold = 10 / appState.zoom.value; // TODO: fix by linkxzhou
   const point: Point = [x, y];
 
   if (
@@ -110,12 +110,12 @@ export const isHittingElementNotConsideringBoundingBox = (
   appState: AppState,
   point: Point,
 ): boolean => {
-  const threshold = 10 / appState.zoom.value;
+  const threshold = 10 / appState.zoom.value; // TODO: fix by linkxzhou
   const check = isTextElement(element)
     ? isStrictlyInside
     : isElementDraggableFromInside(element)
-    ? isInsideCheck
-    : isNearCheck;
+      ? isInsideCheck
+      : isNearCheck;
   return hitTestPointAgainstElement({ element, point, threshold, check });
 };
 
