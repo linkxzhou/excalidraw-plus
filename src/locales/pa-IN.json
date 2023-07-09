@@ -1,7 +1,7 @@
 {
   "labels": {
     "paste": "ਪੇਸਟ ਕਰੋ",
-    "pasteAsPlaintext": "",
+    "pasteAsPlaintext": "{defaultValue}",
     "pasteCharts": "ਚਾਰਟ ਪੇਸਟ ਕਰੋ",
     "selectAll": "ਸਾਰੇ ਚੁਣੋ",
     "multiSelect": "ਐਲੀਮੈਂਟ ਨੂੰ ਚੋਣ ਵਿੱਚ ਜੋੜੋ",
@@ -10,7 +10,7 @@
     "copy": "ਕਾਪੀ ਕਰੋ",
     "copyAsPng": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ PNG ਵਜੋਂ ਕਾਪੀ ਕਰੋ",
     "copyAsSvg": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ SVG ਵਜੋਂ ਕਾਪੀ ਕਰੋ",
-    "copyText": "",
+    "copyText": "{defaultValue}",
     "bringForward": "ਅੱਗੇ ਲਿਆਓ",
     "sendToBack": "ਸਭ ਤੋਂ ਪਿੱਛੇ ਭੇਜੋ",
     "bringToFront": "ਸਭ ਤੋਂ ਅੱਗੇ ਲਿਆਓ",
@@ -72,7 +72,7 @@
     "layers": "ਪਰਤਾਂ",
     "actions": "ਕਾਰਵਾਈਆਂ",
     "language": "ਭਾਸ਼ਾ",
-    "liveCollaboration": "",
+    "liveCollaboration": "{defaultValue}",
     "duplicateSelection": "ਡੁਪਲੀਕੇਟ ਬਣਾਓ",
     "untitled": "ਬੇ-ਸਿਰਨਾਵਾਂ",
     "name": "ਨਾਂ",
@@ -108,7 +108,7 @@
     "excalidrawLib": "ਐਕਸਕਲੀਡਰਾਅ ਲਾਇਬ੍ਰੇਰੀ",
     "decreaseFontSize": "ਫੌਂਟ ਦਾ ਅਕਾਰ ਘਟਾਓ",
     "increaseFontSize": "ਫੌਂਟ ਦਾ ਅਕਾਰ ਵਧਾਓ",
-    "unbindText": "",
+    "unbindText": "{defaultValue}",
     "bindText": "ਪਾਠ ਨੂੰ ਕੰਟੇਨਰ ਨਾਲ ਬੰਨ੍ਹੋ",
     "link": {
       "edit": "ਕੜੀ ਸੋਧੋ",
@@ -116,30 +116,30 @@
       "label": "ਕੜੀ"
     },
     "lineEditor": {
-      "edit": "",
-      "exit": ""
+      "edit": "{defaultValue}",
+      "exit": "{defaultValue}"
     },
     "elementLock": {
-      "lock": "",
-      "unlock": "",
-      "lockAll": "",
-      "unlockAll": ""
+      "lock": "{defaultValue}",
+      "unlock": "{defaultValue}",
+      "lockAll": "{defaultValue}",
+      "unlockAll": "{defaultValue}"
     },
-    "statusPublished": "",
-    "sidebarLock": "",
+    "statusPublished": "{defaultValue}",
+    "sidebarLock": "{defaultValue}",
     "inputNewContainerName": "{defaultValue}",
     "extraBoldx1": "{defaultValue}"
   },
   "library": {
-    "noItems": "",
-    "hint_emptyLibrary": "",
-    "hint_emptyPrivateLibrary": ""
+    "noItems": "{defaultValue}",
+    "hint_emptyLibrary": "{defaultValue}",
+    "hint_emptyPrivateLibrary": "{defaultValue}"
   },
   "buttons": {
     "clearReset": "ਕੈਨਵਸ ਰੀਸੈੱਟ ਕਰੋ",
     "exportJSON": "ਫਾਈਲ ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ",
-    "exportImage": "",
-    "export": "",
+    "exportImage": "{defaultValue}",
+    "export": "{defaultValue}",
     "exportToPng": "PNG ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ",
     "exportToSvg": "SVG ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ",
     "copyToClipboard": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕਰੋ",
@@ -147,7 +147,7 @@
     "scale": "ਪੈਮਾਇਸ਼",
     "save": "ਮੌਜੂਦਾ ਫਾਈਲ ਵਿੱਚ ਸਾਂਭੋ",
     "saveAs": "ਇਸ ਵਜੋਂ ਸਾਂਭੋ",
-    "load": "",
+    "load": "{defaultValue}",
     "getShareableLink": "ਸਾਂਝੀ ਕਰਨ ਵਾਲੀ ਲਿੰਕ ਲਵੋ",
     "close": "ਬੰਦ ਕਰੋ",
     "selectLanguage": "ਭਾਸ਼ਾ ਚੁਣੋ",
@@ -183,7 +183,7 @@
     "couldNotLoadInvalidFile": "ਨਜਾਇਜ਼ ਫਾਈਲ ਲੋਡ ਨਹੀਂ ਕਰ ਸਕੇ",
     "importBackendFailed": "ਬੈਕਐੱਨਡ ਤੋਂ ਆਯਾਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ ਰਹੇ।",
     "cannotExportEmptyCanvas": "ਖਾਲੀ ਕੈਨਵਸ ਨਿਰਯਾਤ ਨਹੀਂ ਕਰ ਸਕਦੇ।",
-    "couldNotCopyToClipboard": "",
+    "couldNotCopyToClipboard": "{defaultValue}",
     "decryptFailed": "ਡਾਟਾ ਡੀਕਰਿਪਟ ਨਹੀਂ ਕਰ ਸਕੇ।",
     "uploadedSecurly": "ਅੱਪਲੋਡ ਸਿਰੇ-ਤੋਂ-ਸਿਰੇ ਤੱਕ ਇਨਕਰਿਪਸ਼ਨ ਨਾਲ ਸੁਰੱਖਿਅਤ ਕੀਤੀ ਹੋਈ ਹੈ, ਜਿਸਦਾ ਮਤਲਬ ਇਹ ਹੈ ਕਿ Excalidraw ਸਰਵਰ ਅਤੇ ਤੀਜੀ ਧਿਰ ਦੇ ਬੰਦੇ ਸਮੱਗਰੀ ਨੂੰ ਪੜ੍ਹ ਨਹੀਂ ਸਕਦੇ।",
     "loadSceneOverridePrompt": "ਬਾਹਰੀ ਡਰਾਇੰਗ ਨੂੰ ਲੋਡ ਕਰਨਾ ਤੁਹਾਡੀ ਮੌਜੂਦਾ ਸਮੱਗਰੀ ਦੀ ਥਾਂ ਲੈ ਲਵੇਗਾ। ਕੀ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
@@ -196,18 +196,18 @@
     "invalidSceneUrl": "ਦਿੱਤੀ ਗਈ URL 'ਚੋਂ ਦ੍ਰਿਸ਼ ਨੂੰ ਆਯਾਤ ਨਹੀਂ ਕਰ ਸਕੇ। ਇਹ ਜਾਂ ਤਾਂ ਖਰਾਬ ਹੈ, ਜਾਂ ਇਸ ਵਿੱਚ ਜਾਇਜ਼ Excalidraw JSON ਡਾਟਾ ਸ਼ਾਮਲ ਨਹੀਂ ਹੈ।",
     "resetLibrary": "ਇਹ ਤੁਹਾਡੀ ਲਾਇਬ੍ਰੇਰੀ ਨੂੰ ਸਾਫ ਕਰ ਦੇਵੇਗਾ। ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇੰਝ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
     "removeItemsFromsLibrary": "ਲਾਇਬ੍ਰੇਰੀ ਵਿੱਚੋਂ {{count}} ਚੀਜ਼(-ਜ਼ਾਂ) ਮਿਟਾਉਣੀਆਂ ਹਨ?",
-    "invalidEncryptionKey": ""
+    "invalidEncryptionKey": "{defaultValue}"
   },
   "errors": {
-    "unsupportedFileType": "",
-    "imageInsertError": "",
-    "fileTooBig": "",
-    "svgImageInsertError": "",
+    "unsupportedFileType": "{defaultValue}",
+    "imageInsertError": "{defaultValue}",
+    "fileTooBig": "{defaultValue}",
+    "svgImageInsertError": "{defaultValue}",
     "invalidSVGString": "SVG ਨਜਾਇਜ਼ ਹੈ।",
-    "cannotResolveCollabServer": "",
-    "importLibraryError": "",
-    "collabSaveFailed": "",
-    "collabSaveFailed_sizeExceeded": ""
+    "cannotResolveCollabServer": "{defaultValue}",
+    "importLibraryError": "{defaultValue}",
+    "collabSaveFailed": "{defaultValue}",
+    "collabSaveFailed_sizeExceeded": "{defaultValue}"
   },
   "toolBar": {
     "selection": "ਚੋਣਕਾਰ",
@@ -221,8 +221,8 @@
     "text": "ਪਾਠ",
     "library": "ਲਾਇਬ੍ਰੇਰੀ",
     "lock": "ਡਰਾਇੰਗ ਤੋਂ ਬਾਅਦ ਵੀ ਚੁਣੇ ਹੋਏ ਸੰਦ ਨੂੰ ਸਰਗਰਮ ਰੱਖੋ ",
-    "penMode": "",
-    "link": "",
+    "penMode": "{defaultValue}",
+    "link": "{defaultValue}",
     "eraser": "ਰਬੜ"
   },
   "headings": {
@@ -231,7 +231,7 @@
     "shapes": "ਆਕ੍ਰਿਤੀਆਂ"
   },
   "hints": {
-    "canvasPanning": "",
+    "canvasPanning": "{defaultValue}",
     "linearElement": "ਇੱਕ ਤੋਂ ਜ਼ਿਆਦਾ ਬਿੰਦੂਆਂ ਲਈ ਕਲਿੱਕ ਕਰਕੇ ਸ਼ੁਰੂਆਤ ਕਰੋ, ਇਕਹਿਰੀ ਲਕੀਰ ਲਈ ਘਸੀਟੋ",
     "freeDraw": "ਕਲਿੱਕ ਕਰਕੇ ਘਸੀਟੋ, ਪੂਰਾ ਹੋਣ 'ਤੇ ਛੱਡ ਦਿਉ",
     "text": "ਨੁਸਖਾ: ਤੁਸੀਂ ਚੋਣਕਾਰ ਸੰਦ ਰਾਹੀਂ ਕਿਤੇ ਵੀ ਡਬਲ-ਕਲਿੱਕ ਕਰਕੇ ਵੀ ਪਾਠ ਜੋੜ ਸਕਦੇ ਹੋ",
@@ -240,16 +240,16 @@
     "linearElementMulti": "ਮੁਕੰਮਲ ਕਰਨ ਲਈ ਆਖਰੀ ਬਿੰਦੂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ਜਾਂ ਇਸਕੇਪ ਜਾਂ ਐਂਟਰ ਦਬਾਓ",
     "lockAngle": "ਤੁਸੀਂ SHIFT ਦਬਾਈ ਰੱਖ ਕੇ ਕੋਣਾਂ ਨੂੰ ਕਾਬੂ ਕਰ ਸਕਦੇ ਹੋ",
     "resize": "ਤੁਸੀਂ ਅਕਾਰ ਬਦਲਦੇ ਸਮੇਂ SHIFT ਦਬਾਈ ਰੱਖ ਕੇ ਅਨੁਪਾਤ ਨੂੰ ਕਾਬੂ ਕਰ ਸਕਦੇ ਹੋ, ਵਿਚਕਾਰ ਤੋਂ ਅਕਾਰ ਬਦਲਣ ਲਈ ALT ਦਬਾਓ",
-    "resizeImage": "",
+    "resizeImage": "{defaultValue}",
     "rotate": "ਤੁਸੀਂ ਘੁਮਾਉਂਦੇ ਹੋਏ SHIFT ਦਬਾਈ ਰੱਖ ਕੇ ਕੋਣਾਂ ਨੂੰ ਕਾਬੂ ਕਰ ਸਕਦੇ ਹੋ",
-    "lineEditor_info": "",
-    "lineEditor_pointSelected": "",
-    "lineEditor_nothingSelected": "",
-    "placeImage": "",
+    "lineEditor_info": "{defaultValue}",
+    "lineEditor_pointSelected": "{defaultValue}",
+    "lineEditor_nothingSelected": "{defaultValue}",
+    "placeImage": "{defaultValue}",
     "publishLibrary": "ਆਪਣੀ ਲਾਇਬ੍ਰੇਰੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ",
     "bindTextToElement": "ਪਾਠ ਜੋੜਨ ਲਈ ਐੰਟਰ ਦਬਾਓ",
-    "deepBoxSelect": "",
-    "eraserRevert": ""
+    "deepBoxSelect": "{defaultValue}",
+    "eraserRevert": "{defaultValue}"
   },
   "canvasError": {
     "cannotShowPreview": "ਝਲਕ ਨਹੀਂ ਦਿਖਾ ਸਕਦੇ",
@@ -298,8 +298,8 @@
   "helpDialog": {
     "blog": "ਸਾਡਾ ਬਲੌਗ ਪੜ੍ਹੋ",
     "click": "ਕਲਿੱਕ",
-    "deepSelect": "",
-    "deepBoxSelect": "",
+    "deepSelect": "{defaultValue}",
+    "deepBoxSelect": "{defaultValue}",
     "curvedArrow": "ਵਿੰਗਾ ਤੀਰ",
     "curvedLine": "ਵਿੰਗੀ ਲਕੀਰ",
     "documentation": "ਕਾਗਜ਼ਾਤ",
@@ -319,9 +319,9 @@
     "view": "ਦਿੱਖ",
     "zoomToFit": "ਸਾਰੇ ਐਲੀਮੈਂਟਾਂ ਨੂੰ ਫਿੱਟ ਕਰਨ ਲਈ ਜ਼ੂਮ ਕਰੋ",
     "zoomToSelection": "ਚੋਣ ਤੱਕ ਜ਼ੂਮ ਕਰੋ",
-    "toggleElementLock": "",
-    "movePageUpDown": "",
-    "movePageLeftRight": ""
+    "toggleElementLock": "{defaultValue}",
+    "movePageUpDown": "{defaultValue}",
+    "movePageLeftRight": "{defaultValue}"
   },
   "clearCanvasDialog": {
     "title": "ਕੈਨਵਸ ਨੂੰ ਸਾਫ਼ ਕਰੋ"
@@ -339,36 +339,36 @@
       "authorName": "ਤੁਹਾਡਾ ਨਾਂ ਜਾਂ ਵਰਤੋਂਕਾਰ-ਨਾਂ",
       "libraryName": "ਤੁਹਾਡੀ ਲਾਇਬਰ੍ਰੀ ਦਾ ਨਾਂ",
       "libraryDesc": "ਤੁਹਾਡੀ ਲਾਇਬ੍ਰੇਰੀ ਦਾ ਵੇਰਵਾ ਤਾਂ ਜੋ ਲੋਕਾਂ ਨੂੰ ਇਸ ਤੋੰਂ ਇਸਦੀ ਵਰਤੋਂ ਕਰਨ ਸਬੰਧੀ ਮਦਦ ਮਿਲ ਸਕੇ",
-      "githubHandle": "",
-      "twitterHandle": "",
-      "website": ""
+      "githubHandle": "{defaultValue}",
+      "twitterHandle": "{defaultValue}",
+      "website": "{defaultValue}"
     },
     "errors": {
       "required": "ਲੋੜੀਂਦਾ",
       "website": "ਜਾਇਜ਼ URL ਭਰੋ"
     },
     "noteDescription": {
-      "pre": "",
+      "pre": "{defaultValue}",
       "link": "ਜਨਤਕ ਲਾਇਬ੍ਰੇਰੀ ਦੀ ਰਿਪਾਜ਼ੀਟਰੀ",
-      "post": ""
+      "post": "{defaultValue}"
     },
     "noteGuidelines": {
-      "pre": "",
+      "pre": "{defaultValue}",
       "link": "ਦਿਸ਼ਾ ਨਿਰਦੇਸ਼",
-      "post": ""
+      "post": "{defaultValue}"
     },
     "noteLicense": {
-      "pre": "",
+      "pre": "{defaultValue}",
       "link": "MIT ਲਾਇਸੈਂਸ, ",
-      "post": ""
+      "post": "{defaultValue}"
     },
-    "noteItems": "",
-    "atleastOneLibItem": "",
-    "republishWarning": ""
+    "noteItems": "{defaultValue}",
+    "atleastOneLibItem": "{defaultValue}",
+    "republishWarning": "{defaultValue}"
   },
   "publishSuccessDialog": {
-    "title": "",
-    "content": "",
+    "title": "{defaultValue}",
+    "content": "{defaultValue}",
     "link": "ਇੱਥੇ"
   },
   "confirmDialog": {
@@ -403,10 +403,26 @@
     "fileSavedToFilename": "{filename} ਵਿੱਚ ਸਾਂਭੀ",
     "canvas": "ਕੈਨਵਸ",
     "selection": "ਚੋਣ",
-    "pasteAsSingleElement": ""
+    "pasteAsSingleElement": "{defaultValue}"
   },
   "colors": {
+    "272727": "{defaultValue}",
+    "336666": "{defaultValue}",
+    "424200": "{defaultValue}",
+    "460046": "{defaultValue}",
+    "467500": "{defaultValue}",
+    "484891": "{defaultValue}",
     "495057": "ਸੁਰਮਈ 7",
+    "600000": "{defaultValue}",
+    "600030": "{defaultValue}",
+    "613030": "{defaultValue}",
+    "616130": "{defaultValue}",
+    "642100": "{defaultValue}",
+    "737300": "{defaultValue}",
+    "750075": "{defaultValue}",
+    "796400": "{defaultValue}",
+    "820041": "{defaultValue}",
+    "844200": "{defaultValue}",
     "ffffff": "ਚਿੱਟਾ",
     "f8f9fa": "ਸੁਰਮਈ 0",
     "f1f3f5": "ਸੁਰਮਈ 1",
@@ -450,19 +466,111 @@
     "2b8a3e": "ਹਰਾ 9",
     "5c940d": "ਲਾਇਮ 9",
     "e67700": "ਪੀਲਾ 9",
-    "d9480f": "ਸੰਤਰੀ 9"
+    "d9480f": "ਸੰਤਰੀ 9",
+    "2F0000": "{defaultValue}",
+    "28004D": "{defaultValue}",
+    "4D0000": "{defaultValue}",
+    "5E005E": "{defaultValue}",
+    "3A006F": "{defaultValue}",
+    "3C3C3C": "{defaultValue}",
+    "9F0050": "{defaultValue}",
+    "4B0091": "{defaultValue}",
+    "8E8E8E": "{defaultValue}",
+    "EA0000": "{defaultValue}",
+    "FF359A": "{defaultValue}",
+    "FF00FF": "{defaultValue}",
+    "9F35FF": "{defaultValue}",
+    "d0d0d0": "{defaultValue}",
+    "ff7575": "{defaultValue}",
+    "ffaad5": "{defaultValue}",
+    "ffa6ff": "{defaultValue}",
+    "d3a4ff": "{defaultValue}",
+    "000079": "{defaultValue}",
+    "003E3E": "{defaultValue}",
+    "006030": "{defaultValue}",
+    "006000": "{defaultValue}",
+    "0000E3": "{defaultValue}",
+    "0066CC": "{defaultValue}",
+    "00AEAE": "{defaultValue}",
+    "02C874": "{defaultValue}",
+    "00BB00": "{defaultValue}",
+    "2828FF": "{defaultValue}",
+    "0072E3": "{defaultValue}",
+    "00CACA": "{defaultValue}",
+    "02DF82": "{defaultValue}",
+    "00DB00": "{defaultValue}",
+    "4A4AFF": "{defaultValue}",
+    "0080FF": "{defaultValue}",
+    "00E3E3": "{defaultValue}",
+    "02F78E": "{defaultValue}",
+    "00EC00": "{defaultValue}",
+    "AAAAFF": "{defaultValue}",
+    "84C1FF": "{defaultValue}",
+    "A6FFFF": "{defaultValue}",
+    "96FED1": "{defaultValue}",
+    "93FF93": "{defaultValue}",
+    "B9B9FF": "{defaultValue}",
+    "97CBFF": "{defaultValue}",
+    "BBFFFF": "{defaultValue}",
+    "ADFEDC": "{defaultValue}",
+    "A6FFA6": "{defaultValue}",
+    "FBFBFF": "{defaultValue}",
+    "ECF5FF": "{defaultValue}",
+    "FDFFFF": "{defaultValue}",
+    "FBFFFD": "{defaultValue}",
+    "F0FFF0": "{defaultValue}",
+    "5B4B00": "{defaultValue}",
+    "548C00": "{defaultValue}",
+    "5B5B00": "{defaultValue}",
+    "9F5000": "{defaultValue}",
+    "842B00": "{defaultValue}",
+    "64A600": "{defaultValue}",
+    "977C00": "{defaultValue}",
+    "BB5E00": "{defaultValue}",
+    "A23400": "{defaultValue}",
+    "9AFF02": "{defaultValue}",
+    "E1E100": "{defaultValue}",
+    "EAC100": "{defaultValue}",
+    "FF9224": "{defaultValue}",
+    "FF5809": "{defaultValue}",
+    "A8FF24": "{defaultValue}",
+    "F9F900": "{defaultValue}",
+    "FFD306": "{defaultValue}",
+    "FFA042": "{defaultValue}",
+    "FF8040": "{defaultValue}",
+    "D3FF93": "{defaultValue}",
+    "FFFFAA": "{defaultValue}",
+    "FFED97": "{defaultValue}",
+    "FFD1A4": "{defaultValue}",
+    "FFBD9D": "{defaultValue}",
+    "DEFFAC": "{defaultValue}",
+    "FFFFB9": "{defaultValue}",
+    "FFF0AC": "{defaultValue}",
+    "FFDCB9": "{defaultValue}",
+    "FFCBB3": "{defaultValue}",
+    "6C3365": "{defaultValue}",
+    "AD5A5A": "{defaultValue}",
+    "A5A552": "{defaultValue}",
+    "5CADAD": "{defaultValue}",
+    "8080C0": "{defaultValue}",
+    "AE57A4": "{defaultValue}",
+    "E1C4C4": "{defaultValue}",
+    "D6D6AD": "{defaultValue}",
+    "B3D9D9": "{defaultValue}",
+    "D8D8EB": "{defaultValue}",
+    "DAB1D5": "{defaultValue}"
   },
   "welcomeScreen": {
     "app": {
-      "center_heading": "",
-      "center_heading_plus": "",
-      "menuHint": ""
+      "center_heading": "{defaultValue}",
+      "center_heading_plus": "{defaultValue}",
+      "menuHint": "{defaultValue}"
     },
     "defaults": {
-      "menuHint": "",
-      "center_heading": "",
-      "toolbarHint": "",
-      "helpHint": ""
+      "menuHint": "{defaultValue}",
+      "center_heading": "{defaultValue}",
+      "toolbarHint": "{defaultValue}",
+      "helpHint": "{defaultValue}"
     }
   }
 }

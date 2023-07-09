@@ -44,7 +44,7 @@
     "withBackground": "الخلفية",
     "exportEmbedScene": "تضمين المشهد",
     "exportEmbedScene_details": "سيتم حفظ بيانات المشهد في ملف PNG/SVG المصدّر بحيث يمكن استعادة المشهد منه.\nسيزيد حجم الملف المصدر.",
-    "addWatermark": "إضافة \"مصنوعة بواسطة Excalidraw\"",
+    "addWatermark": "إضافة \"مصنوعة بواسطة Excalidraw\"{defaultValue}",
     "handDrawn": "رسم باليد",
     "normal": "عادي",
     "code": "رمز",
@@ -109,37 +109,37 @@
     "decreaseFontSize": "تصغير حجم الخط",
     "increaseFontSize": "تكبير حجم الخط",
     "unbindText": "فك ربط النص",
-    "bindText": "",
+    "bindText": "{defaultValue}",
     "link": {
       "edit": "تعديل الرابط",
       "create": "إنشاء رابط",
       "label": "رابط"
     },
     "lineEditor": {
-      "edit": "",
-      "exit": ""
+      "edit": "{defaultValue}",
+      "exit": "{defaultValue}"
     },
     "elementLock": {
-      "lock": "",
-      "unlock": "",
-      "lockAll": "",
-      "unlockAll": ""
+      "lock": "{defaultValue}",
+      "unlock": "{defaultValue}",
+      "lockAll": "{defaultValue}",
+      "unlockAll": "{defaultValue}"
     },
-    "statusPublished": "",
-    "sidebarLock": "",
+    "statusPublished": "{defaultValue}",
+    "sidebarLock": "{defaultValue}",
     "inputNewContainerName": "{defaultValue}",
     "extraBoldx1": "{defaultValue}"
   },
   "library": {
-    "noItems": "",
-    "hint_emptyLibrary": "",
-    "hint_emptyPrivateLibrary": ""
+    "noItems": "{defaultValue}",
+    "hint_emptyLibrary": "{defaultValue}",
+    "hint_emptyPrivateLibrary": "{defaultValue}"
   },
   "buttons": {
     "clearReset": "إعادة تعيين اللوحة",
     "exportJSON": "صدر الملف",
-    "exportImage": "",
-    "export": "",
+    "exportImage": "{defaultValue}",
+    "export": "{defaultValue}",
     "exportToPng": "تصدير بصيغة PNG",
     "exportToSvg": "تصدير بصيغة SVG",
     "copyToClipboard": "نسخ إلى الحافظة",
@@ -183,7 +183,7 @@
     "couldNotLoadInvalidFile": "تعذر التحميل، الملف غير صالح",
     "importBackendFailed": "فشل الاستيراد من الخادوم.",
     "cannotExportEmptyCanvas": "لا يمكن تصدير لوحة فارغة.",
-    "couldNotCopyToClipboard": "",
+    "couldNotCopyToClipboard": "{defaultValue}",
     "decryptFailed": "تعذر فك تشفير البيانات.",
     "uploadedSecurly": "تم تأمين التحميل بتشفير النهاية إلى النهاية، مما يعني أن خادوم Excalidraw والأطراف الثالثة لا يمكنها قراءة المحتوى.",
     "loadSceneOverridePrompt": "تحميل الرسم الخارجي سيحل محل المحتوى الموجود لديك. هل ترغب في المتابعة؟",
@@ -204,10 +204,10 @@
     "fileTooBig": "الملف كبير جداً. الحد الأقصى المسموح به للحجم هو {{maxSize}}.",
     "svgImageInsertError": "تعذر إدراج صورة SVG. يبدو أن ترميز SVG غير صحيح.",
     "invalidSVGString": "SVG غير صالح.",
-    "cannotResolveCollabServer": "",
-    "importLibraryError": "",
-    "collabSaveFailed": "",
-    "collabSaveFailed_sizeExceeded": ""
+    "cannotResolveCollabServer": "{defaultValue}",
+    "importLibraryError": "{defaultValue}",
+    "collabSaveFailed": "{defaultValue}",
+    "collabSaveFailed_sizeExceeded": "{defaultValue}"
   },
   "toolBar": {
     "selection": "تحديد",
@@ -221,8 +221,8 @@
     "text": "نص",
     "library": "مكتبة",
     "lock": "الحفاظ على أداة التحديد نشطة بعد الرسم",
-    "penMode": "",
-    "link": "",
+    "penMode": "{defaultValue}",
+    "link": "{defaultValue}",
     "eraser": "ممحاة"
   },
   "headings": {
@@ -242,14 +242,14 @@
     "resize": "يمكنك تقييد النسب بالضغط على SHIFT أثناء تغيير الحجم،\nاضغط على ALT لتغيير الحجم من المركز",
     "resizeImage": "يمكنك تغيير الحجم بحرية بالضغط بأستمرار على SHIFT،\nاضغط بأستمرار على ALT أيضا لتغيير الحجم من المركز",
     "rotate": "يمكنك تقييد الزوايا من خلال الضغط على SHIFT أثناء الدوران",
-    "lineEditor_info": "",
-    "lineEditor_pointSelected": "",
-    "lineEditor_nothingSelected": "",
-    "placeImage": "",
+    "lineEditor_info": "{defaultValue}",
+    "lineEditor_pointSelected": "{defaultValue}",
+    "lineEditor_nothingSelected": "{defaultValue}",
+    "placeImage": "{defaultValue}",
     "publishLibrary": "نشر مكتبتك",
-    "bindTextToElement": "",
-    "deepBoxSelect": "",
-    "eraserRevert": ""
+    "bindTextToElement": "{defaultValue}",
+    "deepBoxSelect": "{defaultValue}",
+    "eraserRevert": "{defaultValue}"
   },
   "canvasError": {
     "cannotShowPreview": "تعذر عرض المعاينة",
@@ -298,8 +298,8 @@
   "helpDialog": {
     "blog": "اقرأ مدونتنا",
     "click": "انقر",
-    "deepSelect": "",
-    "deepBoxSelect": "",
+    "deepSelect": "{defaultValue}",
+    "deepBoxSelect": "{defaultValue}",
     "curvedArrow": "سهم مائل",
     "curvedLine": "خط مائل",
     "documentation": "دليل الاستخدام",
@@ -319,9 +319,9 @@
     "view": "عرض",
     "zoomToFit": "تكبير للملائمة",
     "zoomToSelection": "تكبير للعنصر المحدد",
-    "toggleElementLock": "",
-    "movePageUpDown": "",
-    "movePageLeftRight": ""
+    "toggleElementLock": "{defaultValue}",
+    "movePageUpDown": "{defaultValue}",
+    "movePageLeftRight": "{defaultValue}"
   },
   "clearCanvasDialog": {
     "title": "مسح اللوحة"
@@ -339,32 +339,32 @@
       "authorName": "اسمك أو اسم المستخدم",
       "libraryName": "اسم مكتبتك",
       "libraryDesc": "وصف مكتبتك لمساعدة الناس على فهم استخدامها",
-      "githubHandle": "",
-      "twitterHandle": "",
-      "website": ""
+      "githubHandle": "{defaultValue}",
+      "twitterHandle": "{defaultValue}",
+      "website": "{defaultValue}"
     },
     "errors": {
       "required": "مطلوب",
       "website": "أدخل عنوان URL صالح"
     },
     "noteDescription": {
-      "pre": "",
+      "pre": "{defaultValue}",
       "link": "مستودع المكتبة العامة",
       "post": "ليستخدمها الآخرون في رسوماتهم."
     },
     "noteGuidelines": {
       "pre": "يجب الموافقة على المكتبة يدويًا أولاً. يرجى قراءة ",
       "link": "الإرشادات",
-      "post": ""
+      "post": "{defaultValue}"
     },
     "noteLicense": {
-      "pre": "",
+      "pre": "{defaultValue}",
       "link": "رخصة إم أي تي ",
       "post": "وهو ما يعني باختصار أنه يمكن لأي شخص استخدامها دون قيود."
     },
     "noteItems": "يجب أن يكون لكل عنصر مكتبة اسمه الخاص حتى يكون قابلاً للتصفية. سيتم تضمين عناصر المكتبة التالية:",
     "atleastOneLibItem": "يرجى تحديد عنصر مكتبة واحد على الأقل للبدء",
-    "republishWarning": ""
+    "republishWarning": "{defaultValue}"
   },
   "publishSuccessDialog": {
     "title": "تم إرسال المكتبة",
@@ -403,10 +403,26 @@
     "fileSavedToFilename": "حفظ باسم {filename}",
     "canvas": "لوحة الرسم",
     "selection": "العنصر المحدد",
-    "pasteAsSingleElement": ""
+    "pasteAsSingleElement": "{defaultValue}"
   },
   "colors": {
+    "272727": "{defaultValue}",
+    "336666": "{defaultValue}",
+    "424200": "{defaultValue}",
+    "460046": "{defaultValue}",
+    "467500": "{defaultValue}",
+    "484891": "{defaultValue}",
     "495057": "رمادي 7",
+    "600000": "{defaultValue}",
+    "600030": "{defaultValue}",
+    "613030": "{defaultValue}",
+    "616130": "{defaultValue}",
+    "642100": "{defaultValue}",
+    "737300": "{defaultValue}",
+    "750075": "{defaultValue}",
+    "796400": "{defaultValue}",
+    "820041": "{defaultValue}",
+    "844200": "{defaultValue}",
     "ffffff": "أبيض",
     "f8f9fa": "رمادي 0",
     "f1f3f5": "رمادي 1",
@@ -450,19 +466,111 @@
     "2b8a3e": "أخضر 9",
     "5c940d": "ليموني 9",
     "e67700": "أصفر 9",
-    "d9480f": "برتقالي 9"
+    "d9480f": "برتقالي 9",
+    "2F0000": "{defaultValue}",
+    "28004D": "{defaultValue}",
+    "4D0000": "{defaultValue}",
+    "5E005E": "{defaultValue}",
+    "3A006F": "{defaultValue}",
+    "3C3C3C": "{defaultValue}",
+    "9F0050": "{defaultValue}",
+    "4B0091": "{defaultValue}",
+    "8E8E8E": "{defaultValue}",
+    "EA0000": "{defaultValue}",
+    "FF359A": "{defaultValue}",
+    "FF00FF": "{defaultValue}",
+    "9F35FF": "{defaultValue}",
+    "d0d0d0": "{defaultValue}",
+    "ff7575": "{defaultValue}",
+    "ffaad5": "{defaultValue}",
+    "ffa6ff": "{defaultValue}",
+    "d3a4ff": "{defaultValue}",
+    "000079": "{defaultValue}",
+    "003E3E": "{defaultValue}",
+    "006030": "{defaultValue}",
+    "006000": "{defaultValue}",
+    "0000E3": "{defaultValue}",
+    "0066CC": "{defaultValue}",
+    "00AEAE": "{defaultValue}",
+    "02C874": "{defaultValue}",
+    "00BB00": "{defaultValue}",
+    "2828FF": "{defaultValue}",
+    "0072E3": "{defaultValue}",
+    "00CACA": "{defaultValue}",
+    "02DF82": "{defaultValue}",
+    "00DB00": "{defaultValue}",
+    "4A4AFF": "{defaultValue}",
+    "0080FF": "{defaultValue}",
+    "00E3E3": "{defaultValue}",
+    "02F78E": "{defaultValue}",
+    "00EC00": "{defaultValue}",
+    "AAAAFF": "{defaultValue}",
+    "84C1FF": "{defaultValue}",
+    "A6FFFF": "{defaultValue}",
+    "96FED1": "{defaultValue}",
+    "93FF93": "{defaultValue}",
+    "B9B9FF": "{defaultValue}",
+    "97CBFF": "{defaultValue}",
+    "BBFFFF": "{defaultValue}",
+    "ADFEDC": "{defaultValue}",
+    "A6FFA6": "{defaultValue}",
+    "FBFBFF": "{defaultValue}",
+    "ECF5FF": "{defaultValue}",
+    "FDFFFF": "{defaultValue}",
+    "FBFFFD": "{defaultValue}",
+    "F0FFF0": "{defaultValue}",
+    "5B4B00": "{defaultValue}",
+    "548C00": "{defaultValue}",
+    "5B5B00": "{defaultValue}",
+    "9F5000": "{defaultValue}",
+    "842B00": "{defaultValue}",
+    "64A600": "{defaultValue}",
+    "977C00": "{defaultValue}",
+    "BB5E00": "{defaultValue}",
+    "A23400": "{defaultValue}",
+    "9AFF02": "{defaultValue}",
+    "E1E100": "{defaultValue}",
+    "EAC100": "{defaultValue}",
+    "FF9224": "{defaultValue}",
+    "FF5809": "{defaultValue}",
+    "A8FF24": "{defaultValue}",
+    "F9F900": "{defaultValue}",
+    "FFD306": "{defaultValue}",
+    "FFA042": "{defaultValue}",
+    "FF8040": "{defaultValue}",
+    "D3FF93": "{defaultValue}",
+    "FFFFAA": "{defaultValue}",
+    "FFED97": "{defaultValue}",
+    "FFD1A4": "{defaultValue}",
+    "FFBD9D": "{defaultValue}",
+    "DEFFAC": "{defaultValue}",
+    "FFFFB9": "{defaultValue}",
+    "FFF0AC": "{defaultValue}",
+    "FFDCB9": "{defaultValue}",
+    "FFCBB3": "{defaultValue}",
+    "6C3365": "{defaultValue}",
+    "AD5A5A": "{defaultValue}",
+    "A5A552": "{defaultValue}",
+    "5CADAD": "{defaultValue}",
+    "8080C0": "{defaultValue}",
+    "AE57A4": "{defaultValue}",
+    "E1C4C4": "{defaultValue}",
+    "D6D6AD": "{defaultValue}",
+    "B3D9D9": "{defaultValue}",
+    "D8D8EB": "{defaultValue}",
+    "DAB1D5": "{defaultValue}"
   },
   "welcomeScreen": {
     "app": {
-      "center_heading": "",
-      "center_heading_plus": "",
-      "menuHint": ""
+      "center_heading": "{defaultValue}",
+      "center_heading_plus": "{defaultValue}",
+      "menuHint": "{defaultValue}"
     },
     "defaults": {
-      "menuHint": "",
-      "center_heading": "",
-      "toolbarHint": "",
-      "helpHint": ""
+      "menuHint": "{defaultValue}",
+      "center_heading": "{defaultValue}",
+      "toolbarHint": "{defaultValue}",
+      "helpHint": "{defaultValue}"
     }
   }
 }

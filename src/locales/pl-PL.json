@@ -1,7 +1,7 @@
 {
   "labels": {
     "paste": "Wklej",
-    "pasteAsPlaintext": "",
+    "pasteAsPlaintext": "{defaultValue}",
     "pasteCharts": "Wklej wykresy",
     "selectAll": "Zaznacz wszystko",
     "multiSelect": "Dodaj element do zaznaczenia",
@@ -44,7 +44,7 @@
     "withBackground": "Kolor wypełnienia",
     "exportEmbedScene": "Osadź scenę",
     "exportEmbedScene_details": "Dane sceny zostaną zapisane w eksportowanym pliku PNG/SVG tak, aby scena mogła zostać z niego przywrócona.\nZwiększy to rozmiar eksportowanego pliku.",
-    "addWatermark": "Dodaj \"Zrobione w Excalidraw\"",
+    "addWatermark": "Dodaj \"Zrobione w Excalidraw\"{defaultValue}",
     "handDrawn": "Odręczny",
     "normal": "Normalny",
     "code": "Kod",
@@ -66,13 +66,13 @@
     "cartoonist": "Rysunkowy",
     "fileTitle": "Nazwa pliku",
     "colorPicker": "Paleta kolorów",
-    "canvasColors": "",
+    "canvasColors": "{defaultValue}",
     "canvasBackground": "Kolor dokumentu",
     "drawingCanvas": "Obszar roboczy",
     "layers": "Warstwy",
     "actions": "Akcje",
     "language": "Język",
-    "liveCollaboration": "",
+    "liveCollaboration": "{defaultValue}",
     "duplicateSelection": "Powiel",
     "untitled": "Bez tytułu",
     "name": "Nazwa",
@@ -106,48 +106,48 @@
     "toggleTheme": "Przełącz motyw",
     "personalLib": "Biblioteka prywatna",
     "excalidrawLib": "Biblioteka Excalidraw",
-    "decreaseFontSize": "",
-    "increaseFontSize": "",
-    "unbindText": "",
-    "bindText": "",
+    "decreaseFontSize": "{defaultValue}",
+    "increaseFontSize": "{defaultValue}",
+    "unbindText": "{defaultValue}",
+    "bindText": "{defaultValue}",
     "link": {
-      "edit": "",
-      "create": "",
-      "label": ""
+      "edit": "{defaultValue}",
+      "create": "{defaultValue}",
+      "label": "{defaultValue}"
     },
     "lineEditor": {
-      "edit": "",
-      "exit": ""
+      "edit": "{defaultValue}",
+      "exit": "{defaultValue}"
     },
     "elementLock": {
-      "lock": "",
-      "unlock": "",
-      "lockAll": "",
-      "unlockAll": ""
+      "lock": "{defaultValue}",
+      "unlock": "{defaultValue}",
+      "lockAll": "{defaultValue}",
+      "unlockAll": "{defaultValue}"
     },
-    "statusPublished": "",
-    "sidebarLock": "",
+    "statusPublished": "{defaultValue}",
+    "sidebarLock": "{defaultValue}",
     "inputNewContainerName": "{defaultValue}",
     "extraBoldx1": "{defaultValue}"
   },
   "library": {
-    "noItems": "",
-    "hint_emptyLibrary": "",
-    "hint_emptyPrivateLibrary": ""
+    "noItems": "{defaultValue}",
+    "hint_emptyLibrary": "{defaultValue}",
+    "hint_emptyPrivateLibrary": "{defaultValue}"
   },
   "buttons": {
     "clearReset": "Wyczyść dokument i zresetuj kolor dokumentu",
     "exportJSON": "Eksportuj do pliku",
-    "exportImage": "",
-    "export": "",
+    "exportImage": "{defaultValue}",
+    "export": "{defaultValue}",
     "exportToPng": "Zapisz jako PNG",
     "exportToSvg": "Zapisz jako SVG",
     "copyToClipboard": "Skopiuj do schowka",
     "copyPngToClipboard": "Skopiuj do schowka jako plik PNG",
     "scale": "Skala",
-    "save": "",
+    "save": "{defaultValue}",
     "saveAs": "Zapisz jako",
-    "load": "",
+    "load": "{defaultValue}",
     "getShareableLink": "Udostępnij",
     "close": "Zamknij",
     "selectLanguage": "Wybierz język",
@@ -183,7 +183,7 @@
     "couldNotLoadInvalidFile": "Nie udało się otworzyć pliku. Wybrany plik jest nieprawidłowy.",
     "importBackendFailed": "Wystąpił błąd podczas importowania pliku.",
     "cannotExportEmptyCanvas": "Najpierw musisz coś narysować, aby zapisać dokument.",
-    "couldNotCopyToClipboard": "",
+    "couldNotCopyToClipboard": "{defaultValue}",
     "decryptFailed": "Nie udało się odszyfrować danych.",
     "uploadedSecurly": "By zapewnić Ci prywatność, udostępnianie projektu jest zabezpieczone szyfrowaniem end-to-end, co oznacza, że poza tobą i osobą z którą podzielisz się linkiem, nikt nie ma dostępu do tego co udostępniasz.",
     "loadSceneOverridePrompt": "Wczytanie zewnętrznego rysunku zastąpi istniejącą zawartość. Czy chcesz kontynuować?",
@@ -204,10 +204,10 @@
     "fileTooBig": "Plik jest zbyt duży. Maksymalny dozwolony rozmiar to {{maxSize}}.",
     "svgImageInsertError": "Nie udało się wstawić obrazu SVG. Znacznik SVG wygląda na nieprawidłowy.",
     "invalidSVGString": "Nieprawidłowy SVG.",
-    "cannotResolveCollabServer": "",
-    "importLibraryError": "",
-    "collabSaveFailed": "",
-    "collabSaveFailed_sizeExceeded": ""
+    "cannotResolveCollabServer": "{defaultValue}",
+    "importLibraryError": "{defaultValue}",
+    "collabSaveFailed": "{defaultValue}",
+    "collabSaveFailed_sizeExceeded": "{defaultValue}"
   },
   "toolBar": {
     "selection": "Zaznaczenie",
@@ -221,8 +221,8 @@
     "text": "Tekst",
     "library": "Biblioteka",
     "lock": "Zablokuj wybrane narzędzie",
-    "penMode": "",
-    "link": "",
+    "penMode": "{defaultValue}",
+    "link": "{defaultValue}",
     "eraser": "Gumka"
   },
   "headings": {
@@ -242,14 +242,14 @@
     "resize": "Możesz zachować proporcję trzymająć wcisnięty SHIFT, przytrzymaj ALT by zmienić rozmiar względem środka",
     "resizeImage": "Możesz zmienić rozmiar swobodnie trzymając SHIFT,\nprzytrzymaj ALT, aby przeskalować względem środka obiektu",
     "rotate": "Możesz obracać element w równych odstępach trzymając wciśnięty SHIFT",
-    "lineEditor_info": "",
-    "lineEditor_pointSelected": "",
-    "lineEditor_nothingSelected": "",
+    "lineEditor_info": "{defaultValue}",
+    "lineEditor_pointSelected": "{defaultValue}",
+    "lineEditor_nothingSelected": "{defaultValue}",
     "placeImage": "Kliknij, aby umieścić obraz, lub kliknij i przeciągnij, aby ustawić jego rozmiar ręcznie",
     "publishLibrary": "Opublikuj własną bibliotekę",
-    "bindTextToElement": "",
-    "deepBoxSelect": "",
-    "eraserRevert": ""
+    "bindTextToElement": "{defaultValue}",
+    "deepBoxSelect": "{defaultValue}",
+    "eraserRevert": "{defaultValue}"
   },
   "canvasError": {
     "cannotShowPreview": "Nie można wyświetlić podglądu",
@@ -293,13 +293,13 @@
     "link_button": "Wygeneruj link",
     "excalidrawplus_description": "Zapisz scenę do swojego obszaru roboczego Excalidraw+.",
     "excalidrawplus_button": "Eksportuj",
-    "excalidrawplus_exportError": ""
+    "excalidrawplus_exportError": "{defaultValue}"
   },
   "helpDialog": {
     "blog": "Przeczytaj na naszym blogu",
     "click": "kliknięcie",
-    "deepSelect": "",
-    "deepBoxSelect": "",
+    "deepSelect": "{defaultValue}",
+    "deepBoxSelect": "{defaultValue}",
     "curvedArrow": "Zakrzywiona strzałka",
     "curvedLine": "Zakrzywiona linia",
     "documentation": "Dokumentacja",
@@ -319,9 +319,9 @@
     "view": "Widok",
     "zoomToFit": "Powiększ, aby wyświetlić wszystkie elementy",
     "zoomToSelection": "Przybliż do zaznaczenia",
-    "toggleElementLock": "",
-    "movePageUpDown": "",
-    "movePageLeftRight": ""
+    "toggleElementLock": "{defaultValue}",
+    "movePageUpDown": "{defaultValue}",
+    "movePageLeftRight": "{defaultValue}"
   },
   "clearCanvasDialog": {
     "title": "Wyczyść płótno"
@@ -339,7 +339,7 @@
       "authorName": "Twoje imię lub nazwa użytkownika",
       "libraryName": "Nazwa twojej biblioteki",
       "libraryDesc": "Opis twojej biblioteki, aby pomóc innym zrozumieć jej działanie",
-      "githubHandle": "",
+      "githubHandle": "{defaultValue}",
       "twitterHandle": "Nazwa użytkownika w serwisie Twitter (opcjonalna), aby wiedzieć kogo oznaczyć przy promowaniu na Twitterze",
       "website": "Link do Twojej osobistej strony internetowej lub gdzie indziej (opcjonalnie)"
     },
@@ -348,23 +348,23 @@
       "website": "Wprowadź prawidłowy adres URL"
     },
     "noteDescription": {
-      "pre": "",
-      "link": "",
+      "pre": "{defaultValue}",
+      "link": "{defaultValue}",
       "post": "dla innych osób do wykorzystania w swoich rysunkach."
     },
     "noteGuidelines": {
       "pre": "Biblioteka musi być najpierw zatwierdzona ręcznie. Przeczytaj ",
       "link": "wytyczne",
-      "post": ""
+      "post": "{defaultValue}"
     },
     "noteLicense": {
       "pre": "Wysyłając zgadzasz się, że biblioteka zostanie opublikowana pod ",
       "link": "Licencja MIT, ",
       "post": "w skrócie, każdy może z nich korzystać bez ograniczeń."
     },
-    "noteItems": "",
+    "noteItems": "{defaultValue}",
     "atleastOneLibItem": "Proszę wybrać co najmniej jeden element biblioteki, by rozpocząć",
-    "republishWarning": ""
+    "republishWarning": "{defaultValue}"
   },
   "publishSuccessDialog": {
     "title": "Biblioteka została przesłana",
@@ -377,7 +377,7 @@
   },
   "encrypted": {
     "tooltip": "Twoje rysunki są zabezpieczone szyfrowaniem end-to-end, tak więc nawet w Excalidraw nie jesteśmy w stanie zobaczyć tego co tworzysz.",
-    "link": ""
+    "link": "{defaultValue}"
   },
   "stats": {
     "angle": "Kąt",
@@ -403,10 +403,26 @@
     "fileSavedToFilename": "Zapisano jako {filename}",
     "canvas": "płótno",
     "selection": "zaznaczenie",
-    "pasteAsSingleElement": ""
+    "pasteAsSingleElement": "{defaultValue}"
   },
   "colors": {
+    "272727": "{defaultValue}",
+    "336666": "{defaultValue}",
+    "424200": "{defaultValue}",
+    "460046": "{defaultValue}",
+    "467500": "{defaultValue}",
+    "484891": "{defaultValue}",
     "495057": "Szary 7",
+    "600000": "{defaultValue}",
+    "600030": "{defaultValue}",
+    "613030": "{defaultValue}",
+    "616130": "{defaultValue}",
+    "642100": "{defaultValue}",
+    "737300": "{defaultValue}",
+    "750075": "{defaultValue}",
+    "796400": "{defaultValue}",
+    "820041": "{defaultValue}",
+    "844200": "{defaultValue}",
     "ffffff": "Biały",
     "f8f9fa": "Szary 0",
     "f1f3f5": "Szary 1",
@@ -450,19 +466,111 @@
     "2b8a3e": "Zielony 9",
     "5c940d": "Limonkowy 9",
     "e67700": "Żółty 9",
-    "d9480f": "Pomarańczowy 9"
+    "d9480f": "Pomarańczowy 9",
+    "2F0000": "{defaultValue}",
+    "28004D": "{defaultValue}",
+    "4D0000": "{defaultValue}",
+    "5E005E": "{defaultValue}",
+    "3A006F": "{defaultValue}",
+    "3C3C3C": "{defaultValue}",
+    "9F0050": "{defaultValue}",
+    "4B0091": "{defaultValue}",
+    "8E8E8E": "{defaultValue}",
+    "EA0000": "{defaultValue}",
+    "FF359A": "{defaultValue}",
+    "FF00FF": "{defaultValue}",
+    "9F35FF": "{defaultValue}",
+    "d0d0d0": "{defaultValue}",
+    "ff7575": "{defaultValue}",
+    "ffaad5": "{defaultValue}",
+    "ffa6ff": "{defaultValue}",
+    "d3a4ff": "{defaultValue}",
+    "000079": "{defaultValue}",
+    "003E3E": "{defaultValue}",
+    "006030": "{defaultValue}",
+    "006000": "{defaultValue}",
+    "0000E3": "{defaultValue}",
+    "0066CC": "{defaultValue}",
+    "00AEAE": "{defaultValue}",
+    "02C874": "{defaultValue}",
+    "00BB00": "{defaultValue}",
+    "2828FF": "{defaultValue}",
+    "0072E3": "{defaultValue}",
+    "00CACA": "{defaultValue}",
+    "02DF82": "{defaultValue}",
+    "00DB00": "{defaultValue}",
+    "4A4AFF": "{defaultValue}",
+    "0080FF": "{defaultValue}",
+    "00E3E3": "{defaultValue}",
+    "02F78E": "{defaultValue}",
+    "00EC00": "{defaultValue}",
+    "AAAAFF": "{defaultValue}",
+    "84C1FF": "{defaultValue}",
+    "A6FFFF": "{defaultValue}",
+    "96FED1": "{defaultValue}",
+    "93FF93": "{defaultValue}",
+    "B9B9FF": "{defaultValue}",
+    "97CBFF": "{defaultValue}",
+    "BBFFFF": "{defaultValue}",
+    "ADFEDC": "{defaultValue}",
+    "A6FFA6": "{defaultValue}",
+    "FBFBFF": "{defaultValue}",
+    "ECF5FF": "{defaultValue}",
+    "FDFFFF": "{defaultValue}",
+    "FBFFFD": "{defaultValue}",
+    "F0FFF0": "{defaultValue}",
+    "5B4B00": "{defaultValue}",
+    "548C00": "{defaultValue}",
+    "5B5B00": "{defaultValue}",
+    "9F5000": "{defaultValue}",
+    "842B00": "{defaultValue}",
+    "64A600": "{defaultValue}",
+    "977C00": "{defaultValue}",
+    "BB5E00": "{defaultValue}",
+    "A23400": "{defaultValue}",
+    "9AFF02": "{defaultValue}",
+    "E1E100": "{defaultValue}",
+    "EAC100": "{defaultValue}",
+    "FF9224": "{defaultValue}",
+    "FF5809": "{defaultValue}",
+    "A8FF24": "{defaultValue}",
+    "F9F900": "{defaultValue}",
+    "FFD306": "{defaultValue}",
+    "FFA042": "{defaultValue}",
+    "FF8040": "{defaultValue}",
+    "D3FF93": "{defaultValue}",
+    "FFFFAA": "{defaultValue}",
+    "FFED97": "{defaultValue}",
+    "FFD1A4": "{defaultValue}",
+    "FFBD9D": "{defaultValue}",
+    "DEFFAC": "{defaultValue}",
+    "FFFFB9": "{defaultValue}",
+    "FFF0AC": "{defaultValue}",
+    "FFDCB9": "{defaultValue}",
+    "FFCBB3": "{defaultValue}",
+    "6C3365": "{defaultValue}",
+    "AD5A5A": "{defaultValue}",
+    "A5A552": "{defaultValue}",
+    "5CADAD": "{defaultValue}",
+    "8080C0": "{defaultValue}",
+    "AE57A4": "{defaultValue}",
+    "E1C4C4": "{defaultValue}",
+    "D6D6AD": "{defaultValue}",
+    "B3D9D9": "{defaultValue}",
+    "D8D8EB": "{defaultValue}",
+    "DAB1D5": "{defaultValue}"
   },
   "welcomeScreen": {
     "app": {
-      "center_heading": "",
-      "center_heading_plus": "",
-      "menuHint": ""
+      "center_heading": "{defaultValue}",
+      "center_heading_plus": "{defaultValue}",
+      "menuHint": "{defaultValue}"
     },
     "defaults": {
-      "menuHint": "",
-      "center_heading": "",
-      "toolbarHint": "",
-      "helpHint": ""
+      "menuHint": "{defaultValue}",
+      "center_heading": "{defaultValue}",
+      "toolbarHint": "{defaultValue}",
+      "helpHint": "{defaultValue}"
     }
   }
 }

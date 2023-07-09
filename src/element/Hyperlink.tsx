@@ -437,7 +437,7 @@ export const shouldHideLinkPopup = (
     appState,
   );
 
-  const threshold = 15 / appState.zoom.value;
+  const threshold = 12 / appState.zoom.value;
   // hitbox to prevent hiding when hovered in element bounding box
   if (isPointHittingElementBoundingBox(element, [sceneX, sceneY], threshold)) {
     return false;
