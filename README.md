@@ -13,7 +13,7 @@
 
 ## 使用地址
 
-https://excalidraw-cn-1251014631.cos-website.ap-nanjing.myqcloud.com
+https://excalidraw-phi-woad.vercel.app/
 
 ## 项目来源
 
